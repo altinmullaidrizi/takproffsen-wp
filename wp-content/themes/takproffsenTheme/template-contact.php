@@ -8,88 +8,68 @@ Template Name: Contact Template
 
 ?>
 
-<?php 
-    $contact_page_main_heading = get_field("contact_page_main_heading");
-    $contact_page_landing = get_field("contact_page_landing");
-    $contact_description = get_field("contact_description");
-    $map_image = get_field("map_image");
-    $address_data = get_field("adress_data");
-    $phone_number = get_field("phone_number");
-    $working_hours = get_field("working_hours");
-    $email = get_field("e-mail");
-    $map = get_field("map");
+<?php
+$contact_page_main_heading = get_field( "contact_page_main_heading" );
+$contact_description       = get_field( "contact_description" );
+$location_section          = get_field( 'location_section' );
 ?>
 
-<section class="section main-contact-section section-padding">
-    <div class="container">
-        <div class="col-md-6">
-            <h5 class="module"> <?= $contact_page_landing ?> </h5>
-            <h1 class="module"> <?= $contact_page_main_heading ?> </h1>
-        </div>
-    </div>
-
-</section>
-
-<section class="section contact-info-section section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <p class="module"> <?= $contact_description ?></p>
-                <div class="contact-info-wrapper">
-                    <p class="module">Address</p>
-                    <div class="contact-info">
-                        <img class="module" src="<?= get_template_directory_uri(  )?>/images/location.png">
-                        <p class="module"><?= $address_data ?></p>
-                    </div>
-                </div>
-                <div class="contact-info-wrapper">
-                    <p class="module">Phone</p>
-                    <div class="contact-info">
-                        <img class="module" src="<?= get_template_directory_uri(  )?>/images/call.png">
-                        <p class="module" ><?= $phone_number ?></p>
-                    </div>
-                </div>
-                <div class="contact-info-wrapper">
-                    <p class="module">E-mail</p>
-                    <div class="contact-info">
-                        <img class="module" src="<?= get_template_directory_uri(  )?>/images/mail.png">
-                        <p class="module"><?= $email ?></p>
-                    </div>
-                </div>
-                <div class="contact-info-wrapper">
-                    <p class="module">Working Hours</p>
-                    <div class="contact-info">
-                        <img class="module" src="<?= get_template_directory_uri(  )?>/images/clock.png">
-                        <p class="module"><?= $working_hours ?></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="map-img module">
-                <iframe class="module" src="<?= $map ?>" width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
+<div class="contact-page">
+    <section class="main-section section-big-padding">
+        <div class="container">
+            <div class="row">
+                <h1 class="w-100"><?= $contact_page_main_heading ?></h1>
+                <p class="w-50 m-auto"><?= $contact_description ?></p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="section contact-form-section">
-    <div class="container">
-        <h1 class="module">Contact Us</h1>
-        <div class="module">
-            <?php
-                if(have_posts(  )){
-                    while(have_posts(  )){
-                        the_post(  );
-                        the_content( );
-                    }
-                }
-            ?>
+    <section class="locations-section section-padding">
+        <div class="container">
+            <h2 class="w-100 has-text-align-center mb-5"><?= $location_section['label'] ?></h2>
+            <div class="row">
+				<?php
+				if ( have_rows( 'location_section_locations' ) ) {
+					while ( have_rows( 'location_section_locations' ) ) : the_row();
+						$city    = get_sub_field( 'city' );
+						$address = get_sub_field( 'address' );
+						$contact = get_sub_field( 'contact_info' );
+						$map     = get_sub_field( 'map' );
+						?>
+                        <div class="col-md-4">
+                            <h3 class="city"><?= $city ?></h3>
+                            <p><?= $address ?>
+                                <br> <br>
+								<?= $contact ?>
+                            </p>
+                            <div class="map-holder">
+                                <iframe src="<?= $map ?>" width="350" height="500" style="border:0;" allowfullscreen=""
+                                        loading="lazy">
+                                </iframe>
+                            </div>
+                        </div>
+					<?php
+					endwhile;
+				}
+				?>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-
+    <section class="contact-form-section section-padding">
+        <div class="container">
+            <h2>Fyll i formulär <br> så återkommer vi</h2>
+            <div class="row">
+                <div class="col-md-5">
+					<?= do_shortcode( '[contact-form-7 id="85" title="Contact form 1"]' ) ?>
+                </div>
+                <div class="col-md-7 d-flex align-content-center">
+                    <img src="<?= get_theme_file_uri() ?>/images/bkg-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
 <?php
 get_footer();

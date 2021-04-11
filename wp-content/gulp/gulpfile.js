@@ -13,7 +13,7 @@ gulp.task('pack-sass', function() {
     return gulp.src('./dev/sass/style.scss')
         .pipe(sass())
         .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest('../themes/VD-theme/css/'))
+        .pipe(gulp.dest('../themes/takproffsenTheme/css/'))
 });
 
 // JS MINIFY
@@ -21,14 +21,14 @@ gulp.task('pack-js', function () {
     return gulp.src('./dev/js/*.js')
         .pipe(concat('bundle.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('../themes/VD-theme/js/'))
+        .pipe(gulp.dest('../themes/takproffsenTheme/js/'))
 });
 
 
 // Minify Images
 gulp.task('pack-images', function() {
     return gulp.src('./dev/pre-images/*')
-        .pipe(newer('../themes/VD-theme/images/'))
+        .pipe(newer('../themes/takproffsenTheme/images/'))
         .pipe(imagemin({
             interlaced: true,
             progressive: true,
@@ -36,7 +36,7 @@ gulp.task('pack-images', function() {
             svgoPlugins: [{removeViewBox: true}],
             use: [jpegtran()]
         }))
-        .pipe(gulp.dest('../themes/VD-theme/images'));
+        .pipe(gulp.dest('../themes/takproffsenTheme/images'));
 });
 
 // Watch when any code is changed

@@ -1,0 +1,84 @@
+.lg-backdrop.in {
+  opacity: 0.5;
+}
+
+.lg-toolbar {
+  background-color: transparent;
+
+  .lg-icon {
+    position: relative;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 3em;
+    padding-right: 3em;
+
+    @media(max-width: 1200px) {
+      font-size: 20px;
+    }
+  }
+
+  .lg-close:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.lg-outer .lg-video-object,
+.lg-outer .lg-image {
+  border-radius: 20px;
+}
+
+@media(min-width: 1200px) {
+  .lg-outer .lg-image {
+    max-width: 855px;
+    max-height: 90vh;
+  }
+
+  .lg-actions .lg-next {
+    right: 50%;
+    transform: translateX(500px);
+  }
+
+  .lg-actions .lg-prev {
+    left: 50%;
+    transform: translateX(-500px);
+  }
+}
+
+.lg-actions .lg-next:before,
+.lg-actions .lg-prev:after
+{
+  content: '';
+}
+
+.lg-nav {
+  display: block;
+  width: 45px;
+  height: 45px;
+
+  @media (max-width: 767px) {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.lg-nav-next {
+  background: url("../images/photoswipe/right_arrow.png") no-repeat center !important;
+  background-size: contain !important;
+}
+
+.lg-nav-prev {
+  background: url("../images/photoswipe/left_arrow.png") no-repeat center !important;
+  background-size: contain !important;
+}
+
+.lg-outer .lg-has-html5 .lg-video-play {
+  background: url("../images/photoswipe/play_btn.png") no-repeat;
+  height: 84px;
+  margin-left: -42px;
+  margin-top: -42px;
+  width: 84px;
+}

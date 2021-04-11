@@ -1,0 +1,276 @@
+@media (max-width: 1240px) {
+  .home-page {
+    .partners-sections .partners-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    nav.navbar {
+      div.right-part {
+        display: none;
+      }
+      a.navbar-brand{
+        border-right: unset;
+      }
+      .navbar-collapse {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background: #000;
+        height: calc(100vh - 100px);
+        width: 100%;
+        z-index: 100;
+
+
+        .menu-items {
+          height: calc(100vh - 100px);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        div.right-part {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 40px;
+          margin-bottom: 60px;
+        }
+
+        .menu {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+
+          li {
+
+            font-size: 34px;
+            line-height: 32px;
+
+          }
+        }
+
+        ul.navbar-nav {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  div.references-page {
+    .reference-gallery-section {
+      .gallery {
+        img {
+          height: 260px;
+        }
+      }
+    }
+  }
+
+  div.aboutus-page{
+    .aboutus-main-section{
+      height: unset;
+
+      .bottom-part{
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  div.home-page {
+    h2 {
+      font-size: 34px;
+      line-height: 46px;
+    }
+
+    .main-section .content p {
+      width: 85%;
+    }
+
+    .partners-sections span {
+      font-size: 34px;
+    }
+
+    .services-section {
+      .row:not(.row:nth-of-type(2)) h2 {
+        font-size: 34px;
+        line-height: 42px;
+      }
+
+      .service {
+        margin: 5px 0;
+      }
+    }
+
+    .big-slider-section {
+      .swiper-button-next, .swiper-button-prev {
+        height: 50px;
+        width: 50px;
+        margin-top: -20px;
+
+        svg {
+          height: 15px;
+        }
+      }
+    }
+  }
+
+  .work-with-us {
+    span, p {
+      width: 90%;
+      text-align: center;
+    }
+
+    .work-with-us-cards {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        align-items: center;
+      }
+    }
+  }
+  section.instagram-slider {
+    span {
+      margin-left: 20px;
+      line-height: 45px;
+    }
+
+    .img-holder {
+      width: calc(4 * 155px);
+      top: 70%;
+      transform: translateY(-50%) translateX(5%);
+
+      .img-wrapper {
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+
+    .ft-flex {
+      display: unset;
+    }
+
+    .ft-col .ft-title {
+      margin: 20px 0 10px 0;
+    }
+
+    .row:first-of-type {
+      margin-bottom: unset;
+    }
+
+    .row.ft-last .col-md-6:nth-of-type(2) span {
+      float: unset;
+    }
+
+    .btn {
+      display: none;
+    }
+  }
+
+  .customizer-page {
+    .services-section {
+      .service {
+        margin: 10px;
+      }
+
+      .row:not(.row:nth-of-type(2)) h2 {
+        font-size: 34px;
+        line-height: 42px;
+      }
+    }
+
+  }
+
+  div.services-page {
+    .list-services-section {
+      .single-service {
+        margin: 30px 20px;
+
+        &.even {
+          .row {
+            flex-direction: column-reverse;
+          }
+        }
+
+        &, &.even {
+          .img {
+            height: 350px;
+            border-radius: 20px 20px 0 0;
+          }
+
+          .description {
+            border-radius: 0 0 20px 20px;
+            padding: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  div.references-page {
+    .reference-gallery-section {
+      .gallery {
+        img {
+          height: 180px;
+        }
+      }
+    }
+  }
+
+  div.aboutus-page{
+    .aboutus-main-section{
+      img{
+        margin-top: 30px;
+      }
+    }
+    .mission-section{
+      img{
+        position: relative;
+        top: unset;
+        left: unset;
+        max-width: unset;
+        width: 90%;
+        margin: auto;
+        height: 300px;
+        object-fit: cover;
+      }
+    }
+    .vision-goal-section{
+      margin-top: 60px;
+      .col-md-5{
+        display: none;
+      }
+      .vision{
+        margin-bottom: 20px;
+      }
+      .goals{
+        margin-top: 20px;
+      }
+    }
+  }
+
+  div.contact-page{
+    .locations-section{
+      .col-md-4{
+        margin-bottom: 60px;
+      }
+    }
+  }
+}

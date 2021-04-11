@@ -1,172 +1,108 @@
-.section-about-main {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 100px;
-}
-
-.section-aboutus-slider {
-  overflow: hidden;
-  padding-bottom: 50px;
-
-  .swiper-container {
-    overflow: visible;
-    margin-top: 100px;
+.aboutus-page {
+  img{
+    border-radius: 20px;
   }
+  .aboutus-main-section {
+    height: 95vh;
+    background: #F1F6FC;
+    position: relative;
 
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+    p {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+    }
 
-    .about-box {
-      display: block;
-      margin: 0 auto;
-      max-width: 450px;
-      padding: 20px;
-      box-shadow: 0 0 15px 2px #aaacad;
-      border-radius: 10px;
+    h1 {
+      font-weight: bold;
+      font-size: 52px;
+      line-height: 60px;
+      margin-bottom: 20px;
+    }
 
-      h1 {
-        padding: 20px;
-      }
-
-      p {
-        padding: 20px;
-      }
-
-      button {
-        border: none;
-        border-radius: 12px;
-        padding: 20px;
-
-        &:focus {
-          outline: none;
-        }
-
-        &:hover {
-          opacity: 0.8;
-        }
-      }
-
-      svg {
-        width: 100%;
-        height: 150px;
-        object-fit: cover;
-      }
+    .col-md-5 {
+      align-items: center;
+      justify-content: center;
+      display: flex;
     }
   }
-}
 
-.section-projects {
-  background-image: linear-gradient(to right, rgb(243, 240, 240), rgba(255, 255, 255, 0.81));
-  text-align: center;
-
-  .project-titles {
-    margin-bottom: 50px;
-    font-weight: $medium-font;
-  }
-
-  h2 {
-    font-size: 26px;
-    margin-bottom: 15px;
-  }
-
-  span {
-    font-size: 22px;
-    font-weight: $regular-font;
-  }
-}
-
-.section-team {
-  .team-slider {
-    .swiper-container {
-      width: 100%;
+  .nature-section {
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .container{
       height: 100%;
+      .row{
+        height: 100%;
+
+        .col-md-5{
+          display: flex;
+          align-items: center;
+        }
+      }
     }
+    .cs-card {
+      background: #FFFFFF;
+      border-radius: 20px;
+      padding: 30px 20px;
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-
-      .team-slide {
-        position: relative;
-        display: block;
-        margin: 0 auto;
-
-        .team-btn {
-          display: none;
-        }
-        &:hover{
-          .team-btn{
-            position: absolute;
-            display: block;
-            margin: 20px auto;
-            border: none;
-            padding: 15px;
-            background-color: rgba(128, 128, 128, 0.83);
-            border-radius: 8px;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            &:hover{
-              background-color: rgba(128, 128, 128, 0.93);
-            }
-            &:focus{
-              outline: none;
-            }
-          }
-        }
-
-        img {
-          border-radius: 12px;
-          width: 300px;
-          height: 350px;
-          object-fit: cover;
-          object-position: top;
-        }
+      h3{
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 39px;
+      }
+      p{
+        margin: 0;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
       }
     }
   }
 
-  .team-content {
-    .tab-content {
-      display: none;
+  .mission-section{
+    .row{
+      margin-bottom: -140px;
+    }
+    h3{
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 39px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    img{
+      position: relative;
+      top: -140px;
+      left: 30px;
+      max-width: 49%;
+    }
+  }
 
-      &.active {
-        display: block;
+  .vision-goal-section{
+    background: linear-gradient(to bottom, #fff 50%, $green 50%);
+    .vision-goal{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 
-        h1 {
-          margin-bottom: 50px;
-        }
-
-        p {
-          font-size: 18px;
-        }
+      h3{
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 39px;
+        margin-bottom: 20px;
       }
-
-    }
-
-  }
-}
-
-.section-contact {
-  background-image: linear-gradient(to right, rgb(243, 240, 240), rgba(255, 255, 255, 0.81));
-  margin-bottom: 100px;
-
-  .contact-btn {
-    border: none;
-    padding: 15px;
-    background-color: rgba(128, 128, 128, 0.42);
-    border-radius: 8px;
-
-    &:hover {
-      opacity: 0.8;
-
+      p{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+      }
     }
   }
 }
-

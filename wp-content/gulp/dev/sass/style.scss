@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap");
+@import "_variables.scss";
+@import "_elements.scss";
 @import "bootstrap.min.css";
 @import "swiper.min.css";
+@import "lightgallery";
 @import "_responsive.scss";
-@import "_variables.scss";
 @import "hompepage.scss";
 @import "aboutus.scss";
 @import "contactpage.scss";
+@import "references";
+@import "services";
+@import "takvaljaren";
+@import "reusables";
 
 html {
   height: 100%;
@@ -14,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 .module {
@@ -24,69 +30,15 @@ body {
 .module-ready {
   transition: all 1s;
   opacity: 1;
+
   &:nth-child(odd) {
     transition: all 1.5s;
     opacity: 1;
   }
 }
 
-.dark-background-on-scroll {
-  background-color: #262626;
-}
-
-.dark-background {
-  background-color: rgba(38, 38, 38, 0.62);
-}
-
 img {
   max-width: 100%;
-}
-
-header {
-  position: fixed;
-  height: 80px;
-  width: 100%;
-  z-index: 99;
-  top: 0;
-  left: 0;
-  transition: all 0.5s;
-
-  .header-wrapper {
-    display: flex;
-    justify-content: space-between;
-
-    .header-logo {
-      height: 100%;
-
-      a {
-        display: block;
-        padding: 10px 0;
-      }
-
-      img {
-        height: 60px;
-      }
-    }
-
-    .nav-items {
-      ul {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        line-height: 60px;
-        padding: 10px 0;
-
-        li {
-          padding-right: 20px;
-
-          a {
-            display: block;
-            color: #fff;
-          }
-        }
-      }
-    }
-  }
 }
 
 .section {
@@ -94,39 +46,338 @@ header {
 }
 
 .section-padding {
-  padding: 50px 0;
+  padding: 60px 0;
 }
 
-.footer-menu {
-  ul {
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
+.section-big-padding {
+  padding: 80px 0;
+}
 
-    li {
-      margin-top: 10px;
+header {
+  nav.navbar {
+    height: 100px;
+    background: #000;
+    color: #fff;
+
+    .navbar-brand {
+      margin-right: 50px;
+      padding-right: 50px;
+      border-right: 1px solid #fff;
+    }
+
+    .navbar-nav {
+      .menu {
+
+        padding: 0;
+        display: flex;
+
+        li {
+          list-style: none;
+          margin: 0 10px;
+
+          a {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+          }
+        }
+
+      }
+    }
+
+    .right-part {
+      display: flex;
+      align-items: center;
+
+      .call-btn {
+        color: #fff;
+        margin-right: 40px;
+      }
+    }
+  }
+
+  &.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    nav.navbar {
+      background: transparent;
+    }
+  }
+}
+
+footer {
+  padding: 60px 0;
+
+  .row:first-of-type {
+    margin-bottom: 60px;
+  }
+
+  .row.ft-last {
+    margin-top: 40px;
+
+    .col-md-6:first-of-type {
+      color: #B7B7B7;
+    }
+
+    .col-md-6:nth-of-type(2) {
+      span {
+        float: right;
+      }
 
       a {
-        display: block;
         color: #000;
+      }
+    }
+  }
+
+  .ft-col {
+    display: flex;
+    flex-direction: column;
+
+    .ft-title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    span:not(.ft-title), a {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 28px;
+    }
+
+    .menu {
+      padding: 0;
+
+      li {
+        list-style: none;
+
+        a {
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .ft-flex {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+  }
+}
+
+.instagram-slider {
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+
+  span {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 62px;
+  }
+
+  .img-holder {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    transform: translateY(-50%) translateX(25%);
+
+    .img-wrapper {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(179.9deg, #CEFF43 0.09%, rgba(206, 255, 67, 0) 99.91%);
+      border-radius: 10px;
+      margin-right: 10px;
+
+      img {
+        height: 290px;
+        width: 290px;
+        mix-blend-mode: multiply;
+      }
+    }
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    background: #F1F6FC;
+    z-index: -1;
+  }
+}
+
+.work-with-us {
+  background: $green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  span:first-of-type {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 62px;
+    margin-bottom: 30px;
+  }
+
+  .work-with-us-cards {
+    display: flex;
+
+    .card {
+      padding: 30px;
+      min-width: 280px;
+      margin: 15px;
+      mix-blend-mode: normal;
+      border-radius: 10px;
+      border: none;
+      color: #000;
+      text-decoration: none;
+
+      svg {
+        margin-bottom: 30px;
+      }
+
+      span {
+        &:first-of-type {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 28px;
+          margin-bottom: 10px;
+        }
       }
     }
   }
 }
 
-//Add footer to bottom
-.footer-absolute {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  left: 0;
+a {
+  color: #000;
+
+  &:hover {
+    color: #00000099;
+    text-decoration: unset;
+  }
+}
+button:focus{
+  outline: none;
 }
 
-.footer-mobile {
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+.hamburger {
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: #000;
+}
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
   position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 40px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+
+.hamburger-inner::before {
+  top: -10px;
+}
+
+.hamburger-inner::after {
+  bottom: -10px;
+}
+
+
+/*
+   * Collapse
+   */
+.hamburger--collapse .hamburger-inner {
+  top: auto;
   bottom: 0;
-  width: 100%;
-  left: 0;
+  transition-duration: 0.13s;
+  transition-delay: 0.13s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse .hamburger-inner::after {
+  top: -20px;
+  transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+}
+
+.hamburger--collapse .hamburger-inner::before {
+  transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse.is-active .hamburger-inner {
+  transform: translate3d(0, -10px, 0) rotate(-45deg);
+  transition-delay: 0.22s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--collapse.is-active .hamburger-inner::after {
+  top: 0;
+  opacity: 0;
+  transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+}
+
+.hamburger--collapse.is-active .hamburger-inner::before {
+  top: 0;
+  transform: rotate(-90deg);
+  transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before{
+  background: #fff;
+}
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::after, .hamburger.is-active .hamburger-inner::before{
+  background: #fff;
 }

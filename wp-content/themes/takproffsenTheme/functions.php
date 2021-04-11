@@ -3,8 +3,12 @@
 add_action('wp_enqueue_scripts', 'vitaminad_scripts');
 function vitaminad_scripts()
 {
-    wp_enqueue_style('vitaminad-style', get_template_directory_uri() . '/css/style.css');
-    wp_enqueue_script('vitaminad-js', get_template_directory_uri() . '/js/bundle.js', '', '', true);
+	wp_enqueue_style('light-gallery', get_template_directory_uri() . '/lightgallery/css/lightgallery.min.css');
+	wp_enqueue_style('slider-style', get_template_directory_uri() . '/css/BeerSlider.css');
+	wp_enqueue_style('vitaminad-style', get_template_directory_uri() . '/css/style.css');
+	wp_enqueue_script('light-gallery-js', get_template_directory_uri() . '/lightgallery/js/lightgallery.min.js');
+	wp_enqueue_script('slider-js', get_template_directory_uri() . '/js/BeerSlider.js');
+	wp_enqueue_script('vitaminad-js', get_template_directory_uri() . '/js/bundle.js', '', '', true);
 }
 
 
