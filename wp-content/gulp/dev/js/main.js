@@ -1,5 +1,20 @@
 jQuery(document).ready(function () {
 
+    //init AOS effects
+    AOS.init({
+        delay: 50,
+        duration: 800,
+    });
+
+    jQuery(".nav-link").on('click', function (){
+        var _this = $(this);
+        var id = _this.attr('id');
+        jQuery('#pills-tabContent .tab-pane').removeClass('show').removeClass('active');
+        console.log(id);
+        jQuery("div[aria-labelledby="+ id +"]").addClass('show').addClass('active');
+    });
+
+
     jQuery('.hamburger').on('click', function () {
         jQuery(this).toggleClass('is-active');
     });
@@ -68,7 +83,9 @@ new BeerSlider(document.getElementById('slider'));
 new BeerSlider(document.getElementById('slider2'));
 
 
-// color picker
+// **************** //
+//   color picker  //
+// *************** //
 
 
 var svgname = ('Siding-shape');
@@ -145,6 +162,7 @@ function activateClasse(e) {
 
 
 var roofColor = document.getElementById('roofColor');
+var roofFormInput = jQuery('#roofColorInput');
 var btn1 = document.getElementById('btn1');
 var btn2 = document.getElementById('btn2');
 var btn3 = document.getElementById('btn3');
@@ -164,6 +182,7 @@ var btn16 = document.getElementById('btn16');
 var btn17 = document.getElementById('btn17');
 
 var wallColor = document.getElementById('wallColor');
+var wallFormInput = jQuery('#wallColorInput');
 var btn18 = document.getElementById('btn18');
 var btn19 = document.getElementById('btn19');
 var btn20 = document.getElementById('btn20');
@@ -176,133 +195,161 @@ var btn25 = document.getElementById('btn25');
 
 btn1.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#ffffff";
-    roofColor.innerHTML = '<p>Roof Color: Fjern farve</p>'
+    roofColor.innerHTML = '<p>Roof Color: Fjern farve</p>';
+    roofFormInput.val("Fjern farve");
 });
 
 btn2.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#493228";
-    roofColor.innerHTML = '<p>Roof Color: Mørkebrun</p>'
+    roofColor.innerHTML = '<p>Roof Color: Mørkebrun</p>';
+    roofFormInput.val("Mørkebrun");
 });
 
 btn3.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#774515";
-    roofColor.innerHTML = '<p>Roof Color: Rødbrun</p>'
+    roofColor.innerHTML = '<p>Roof Color: Rødbrun</p>';
+    roofFormInput.val("Rødbrun");
 });
 
 btn4.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#AA6829";
-    roofColor.innerHTML = '<p>Roof Color: Teglrød</p>'
+    roofColor.innerHTML = '<p>Roof Color: Teglrød</p>';
+    roofFormInput.val("Teglrød");
 
 });
 
 btn5.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#E5E0D9";
-    roofColor.innerHTML = '<p>Roof Color: Lysegrå</p>'
+    roofColor.innerHTML = '<p>Roof Color: Lysegrå</p>';
+    roofFormInput.val("Lysegrå");
 
 });
 
 btn6.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#614636";
-    roofColor.innerHTML = '<p>Roof Color: Mocca</p>'
+    roofColor.innerHTML = '<p>Roof Color: Mocca</p>';
+    roofFormInput.val("Mocca");
 
 });
 btn7.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#9D5026";
-    roofColor.innerHTML = '<p>Roof Color: Specialrød</p>'
+    roofColor.innerHTML = '<p>Roof Color: Specialrød</p>';
+    roofFormInput.val("Specialrød");
 
 });
 btn8.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#242729";
-    roofColor.innerHTML = '<p>Roof Color: Antracit</p>'
+    roofColor.innerHTML = '<p>Roof Color: Antracit</p>';
+    roofFormInput.val("Antracit");
 
 });
 btn9.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#7C2917";
-    roofColor.innerHTML = '<p>Roof Color: Oxydrød</p>'
+    roofColor.innerHTML = '<p>Roof Color: Oxydrød</p>';
+    roofFormInput.val("Oxydrød");
 
 });
 btn10.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#0B0A0B";
-    roofColor.innerHTML = '<p>Roof Color: Antracitmørk</p>'
+    roofColor.innerHTML = '<p>Roof Color: Antracitmørk</p>';
+    roofFormInput.val("Antracitmørk");
 
 });
 btn11.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#000116";
-    roofColor.innerHTML = '<p>Roof Color: Blåsort</p>'
+    roofColor.innerHTML = '<p>Roof Color: Blåsort</p>';
+    roofFormInput.val("Blåsort");
 
 });
 btn12.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#522F2D";
-    roofColor.innerHTML = '<p>Roof Color: Bordeaux</p>'
+    roofColor.innerHTML = '<p>Roof Color: Bordeaux</p>';
+    roofFormInput.val("Bordeaux");
 
 });
 btn13.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#000000";
-    roofColor.innerHTML = '<p>Roof Color: Sort</p>'
+    roofColor.innerHTML = '<p>Roof Color: Sort</p>';
+    roofFormInput.val("Sort");
 
 });
 btn14.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#1C473B";
-    roofColor.innerHTML = '<p>Roof Color: Grøn</p>'
+    roofColor.innerHTML = '<p>Roof Color: Grøn</p>';
+    roofFormInput.val("Grøn");
 
 });
 btn15.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#0E205C";
-    roofColor.innerHTML = '<p>Roof Color: Blå</p>'
+    roofColor.innerHTML = '<p>Roof Color: Blå</p>';
+    roofFormInput.val("Blå");
 
 });
 btn16.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#653D31";
-    roofColor.innerHTML = '<p>Roof Color: Svenskrød</p>'
+    roofColor.innerHTML = '<p>Roof Color: Svenskrød</p>';
+    roofFormInput.val("Svenskrød");
 
 });
 btn17.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#706F73";
-    roofColor.innerHTML = '<p>Roof Color: Skifergå</p>'
+    roofColor.innerHTML = '<p>Roof Color: Skifergå</p>';
+    roofFormInput.val("Skifergå");
 
 });
 btn18.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#FFFFFF";
-    wallColor.innerHTML = '<p>Wall Color: Fjern farve</p>'
+    wallColor.innerHTML = '<p>Wall Color: Fjern farve</p>';
+    wallFormInput.val("Fjern farve");
 
 });
 btn19.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#F0D7AB";
-    wallColor.innerHTML = '<p>Wall Color: Sand</p>'
+    wallColor.innerHTML = '<p>Wall Color: Sand</p>';
+    wallFormInput.val("Sand");
 
 });
 btn20.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#353F47";
-    wallColor.innerHTML = '<p>Wall Color: Antracit</p>'
+    wallColor.innerHTML = '<p>Wall Color: Antracit</p>';
+    wallFormInput.val("Antracit");
 
 });
 btn21.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#D8DAD9";
-    wallColor.innerHTML = '<p>Wall Color: Lys grå</p>'
+    wallColor.innerHTML = '<p>Wall Color: Lys grå</p>';
+    wallFormInput.val("Lys grå");
 
 });
 btn22.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#F8E29D";
-    wallColor.innerHTML = '<p>Wall Color: Lys gul</p>'
+    wallColor.innerHTML = '<p>Wall Color: Lys gul</p>';
+    wallFormInput.val("Lys gul");
 
 });
 btn23.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#884326";
-    wallColor.innerHTML = '<p>Wall Color: Murstendsrød</p>'
+    wallColor.innerHTML = '<p>Wall Color: Murstendsrød</p>';
+    wallFormInput.val("Murstendsrød");
 
 });
 btn24.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#F8D69A";
-    wallColor.innerHTML = '<p>Wall Color: Murstensgul</p>'
+    wallColor.innerHTML = '<p>Wall Color: Murstensgul</p>';
+    wallFormInput.val("Murstensgul");
 
 });
 btn25.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#FFFFFF";
-    wallColor.innerHTML = '<p>Wall Color: Hvid</p>'
+    wallColor.innerHTML = '<p>Wall Color: Hvid</p>';
+    wallFormInput.val("Hvid");
 });
 
+$(function () {
+    $('[data-toggle="popover"]').tooltip()
+});
 
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'))
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl)
 })

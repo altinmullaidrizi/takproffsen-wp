@@ -6,35 +6,35 @@ get_header();
 Template Name: Takvaljaren Template
 */
 
-$main_heading    = get_field( 'main_heading' );
+$main_heading     = get_field( 'main_heading' );
 $main_description = get_field( 'main_description' );
-$main_label      = get_field( 'main_label' );
-$main_paragraph  = get_field( 'main_paragraph' );
-$services        = get_field( 'services' );
+$main_label       = get_field( 'main_label' );
+$main_paragraph   = get_field( 'main_paragraph' );
+$services         = get_field( 'services' );
 ?>
 
 <div class="customizer-page">
     <section class="main-section section-padding">
         <div class="container">
             <div class="row">
-                <h1 class="w-100"><?= $main_heading ?></h1>
-                <p class="w-50 m-auto"><?= $main_description ?></p>
+                <h1 class="w-100 mobile-main-heading" data-aos="fade-up"><?= $main_heading ?></h1>
+                <p class="w-50 m-auto mobile-p" data-aos="fade-up"><?= $main_description ?></p>
             </div>
         </div>
     </section>
     <section class="color-picker-section">
         <div class="container">
             <div class="row home-colors">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4" data-aos="fade-up">
                     <ul class="nav nav-pills mb-3 mt-3 building" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link section active" id="pills-roof-tab" data-bs-toggle="pill"
+                            <a class="nav-link section active" id="pills-roof-tab" data-toggle="pill"
                                href="#pills-roof"
                                role="tab" aria-controls="pills-roof" aria-selected="true"
                                data-text="Siding-shape">Roof</a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a class="nav-link section border-tab" id="pills-wall-tab" data-bs-toggle="pill"
+                            <a class="nav-link section border-tab" id="pills-wall-tab" data-toggle="pill"
                                href="#pills-wall" role="tab" aria-controls="pills-wall" aria-selected="false"
                                data-text="Trim-shape">Wall</a>
                         </li>
@@ -229,7 +229,7 @@ $services        = get_field( 'services' );
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-12">
+                <div class="col-lg-8 col-12"  data-aos="fade-up">
                     <div id="container">
                         <svg id="Siding-svg" class="roof" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                              viewBox="0 0 1169 673">
@@ -243,109 +243,18 @@ $services        = get_field( 'services' );
                                     <img id="color--img" src="<?= get_theme_file_uri() ?>/images/color-house.jpg"
                                          alt="">
                                 </div>
-
-                                <div class="modal fade" id="exampleModal" tabindex="-1"
-                                     aria-labelledby="exampleModalLabel"
-                                     aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Get a quote from our
-                                                    proffesinal team</h5>
-                                            </div>
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="mb-3 form-group">
-                                                                <input type="text" placeholder="Namn"
-                                                                       class="form-control"
-                                                                       id="namn">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="mb-3 form-group">
-                                                                <input type="text" placeholder="Epost"
-                                                                       class="form-control"
-                                                                       id="epost">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="mb-3 form-group">
-                                                                <input type="text" placeholder="Ämne"
-                                                                       class="form-control"
-                                                                       id="amne">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="mb-3 form-group">
-                                                                <input type="text" placeholder="Stad & Address"
-                                                                       class="form-control" id="address">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="mb-3 form-group">
-                                                            <textarea class="form-control" rows="4" cols="50"
-                                                                      placeholder="Behover hjalp med foljande?"
-                                                                      id="message-text"></textarea>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                                <div class="row">
-                                                    <div class="d-flex">
-                                                        <p class="chosen-colors-text">Colors you have chosen</p>
-                                                        <div class="info-text">
-                                                            <button type="button" class="btn btn-secondary info-button"
-                                                                    data-bs-container="body" data-bs-toggle="popover"
-                                                                    data-bs-placement="top"
-                                                                    data-bs-content="After filling the form, we will contact you soon with the colors you have chosen for your roof & wall.">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                                     height="16" fill="currentColor"
-                                                                     class="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                                                                    <path
-                                                                            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-                                                                </svg>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-6 mb-5">
-                                                        <div class="roofColor" id="roofColor"></div>
-                                                    </div>
-                                                    <div class="col-md-6">
-                                                        <p class="wallColor" id="wallColor"></p>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <div class="text-center">
-                                                    <button type="button"
-                                                            class="btn btn-primary view-final-home border-0"
-                                                            data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                                            data-bs-whatever="@mdo">Få
-                                                        ditt
-                                                        erbjudande
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                     </div>
                 </div>
-
             </div>
-            <div class="row mt-4">
+            <div class="row mt-4" data-aos="fade-up">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-4"></div>
                         <div class="col-md-8">
                             <div class="text-center">
                                 <button type="button" class="btn btn-primary view-final-home border-0"
-                                        data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Få
-                                    ditt
-                                    erbjudande
+                                        data-toggle="modal" data-target="#exampleModal">Få
+                                    ditt erbjudande
                                 </button>
                             </div>
                         </div>
@@ -353,13 +262,65 @@ $services        = get_field( 'services' );
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1"
+             aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Get a quote from our
+                            proffesinal team</h5>
+                        <button class="close-btn" data-toggle="modal" data-target="#exampleModal">X</button>
+                    </div>
+                    <div class="modal-body">
+						<?= do_shortcode( '[contact-form-7 id="335" title="Chosen Color"]' ) ?>
+                        <div class="d-flex">
+                            <p class="chosen-colors-text">Colors you have chosen</p>
+                            <div class="info-text">
+                                <button type="button" class="btn btn-secondary info-button"
+                                        data-container="body" data-toggle="popover"
+                                        data-placement="top"
+                                        data-content="After filling the form, we will contact you soon with the colors you have chosen for your roof & wall.">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                         height="16" fill="currentColor"
+                                         class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                        <path
+                                                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-5">
+                                <div class="roofColor" id="roofColor"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="wallColor" id="wallColor"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="text-center">
+                            <button type="button"
+                                    class="btn btn-primary view-final-home border-0"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    data-bs-whatever="@mdo">Få
+                                ditt
+                                erbjudande
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="services-section section-padding">
+    <section class="services-section section-padding" data-aos="fade-up">
         <div class="container">
             <div class="row">
-                <h2><?= $main_label ?></h2>
-                <p><?= $main_paragraph ?></p>
+                <h2 data-aos="fade-up"><?= $main_label ?></h2>
+                <p data-aos="fade-up"><?= $main_paragraph ?></p>
             </div>
             <div class="row">
 				<?php
@@ -370,10 +331,10 @@ $services        = get_field( 'services' );
 						$image = get_sub_field( 'image' );
 						$link  = get_sub_field( 'link' );
 						?>
-                        <div class="col-md-3">
+                        <div class="col-md-3" data-aos="fade-up">
                             <a href="<?= $link ?>">
                                 <div class="service"
-                                     style="background: url('<?= $image['url'] ?>'), linear-gradient(179.9deg,#ceff43 .09%,rgba(206,255,67,0) 99.91%)">
+                                     style="background: url('<?= $image['url'] ?>') no-repeat center/cover, linear-gradient(179.9deg,#ceff43 .09%,rgba(206,255,67,0) 99.91%)">
                                     <span><?= $title ?></span>
                                     <svg width="30" height="19" viewBox="0 0 30 19" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">

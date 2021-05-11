@@ -31,42 +31,33 @@
     justify-content: center;
     color: #fff;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
+    background-blend-mode: multiply;
+
+    span {
+      text-shadow: 0 0 5px #212529;
+    }
 
     svg {
       margin-left: 10px;
+      margin-right: 10px;
+      transition: all .5s;
     }
 
     &:hover {
       color: $green;
-      background-blend-mode: multiply;
 
       svg {
+        margin-right: 0;
+        margin-left: 20px;
+
         path {
           stroke: $green;
         }
       }
     }
   }
-}
-
-
-.bottom-part {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  color: #000;
-  height: 150px;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 38px;
-  background: url("data:image/svg+xml,%0A%3Csvg width='1440' height='153' viewBox='0 0 1440 153' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1440 18.9331C1440 18.9331 1108.46 61.5327 867.35 18.9331C626.24 -23.6664 378.42 18.9331 378.42 18.9331C378.42 18.9331 155.16 55.076 0 18.9331V152.003H1440V18.9331Z' fill='%23CEFF43'/%3E%3C/svg%3E%0A");
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
 
 .before-after-section {
@@ -138,7 +129,9 @@
     z-index: 2;
     mix-blend-mode: multiply;
   }
-
+.modal{
+  top: 1%;
+}
   .modal-content {
     border-radius: 20px !important;
     padding: 40px 20px !important;
@@ -161,6 +154,14 @@
     text-align: center !important;
     display: block !important;
     border: 0 !important;
+
+    .close-btn{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: none;
+      border: none;
+    }
   }
 
   .info-text {
@@ -308,7 +309,7 @@
     cursor: pointer;
     font-style: normal;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
     height: 70px;
     flex: 0 0 22%;
@@ -467,4 +468,24 @@
 }
 
 
+.bottom-part {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: url("data:image/svg+xml,%0A%3Csvg width='1440' height='153' viewBox='0 0 1440 153' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1440 18.9331C1440 18.9331 1108.46 61.5327 867.35 18.9331C626.24 -23.6664 378.42 18.9331 378.42 18.9331C378.42 18.9331 155.16 55.076 0 18.9331V152.003H1440V18.9331Z' fill='%23CEFF43'/%3E%3C/svg%3E%0A");
 
+  font-family: 'Mak';
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000;
+
+  span{
+    margin-top: 40px;
+  }
+}

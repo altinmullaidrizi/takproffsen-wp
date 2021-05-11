@@ -93,12 +93,13 @@
       line-height: 46px;
     }
 
-    .main-section .content p {
-      width: 85%;
+    .main-section .content h1 {
+      font-size: 42px;
+      line-height: 50px;
     }
 
-    .partners-sections span {
-      font-size: 34px;
+    .main-section .content p {
+      width: 85%;
     }
 
     .services-section {
@@ -113,16 +114,18 @@
     }
 
     .big-slider-section {
-      .swiper-button-next, .swiper-button-prev {
-        height: 50px;
-        width: 50px;
-        margin-top: -20px;
+      .swiper-pagination {
+        bottom: -25px;
+      }
 
-        svg {
-          height: 15px;
-        }
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
       }
     }
+  }
+
+  section.before-after-section:after {
+    height: 75%;
   }
 
   .work-with-us {
@@ -156,7 +159,16 @@
           width: 150px;
           height: 150px;
         }
+
+        &:after {
+          height: 24px;
+          width: 24px;
+        }
       }
+    }
+
+    &:after {
+      height: 70%;
     }
   }
 
@@ -203,6 +215,10 @@
       .single-service {
         margin: 30px 20px;
 
+        &:first-of-type {
+          margin-top: 0;
+        }
+
         &.even {
           .row {
             flex-direction: column-reverse;
@@ -232,6 +248,10 @@
         }
       }
     }
+
+    .before-after-section h2 {
+      margin-bottom: 20px;
+    }
   }
 
   div.aboutus-page{
@@ -252,25 +272,54 @@
         object-fit: cover;
       }
     }
-    .vision-goal-section{
+
+    .vision-goal-section {
       margin-top: 60px;
-      .col-md-5{
+
+      .col-md-5 {
         display: none;
       }
-      .vision{
+
+      .vision-goal {
+        margin-top: 30px;
+      }
+
+      .vision {
         margin-bottom: 20px;
       }
-      .goals{
+
+      .goals {
         margin-top: 20px;
       }
     }
   }
 
-  div.contact-page{
-    .locations-section{
-      .col-md-4{
+  div.contact-page {
+    .locations-section {
+      .col-md-4 {
         margin-bottom: 60px;
       }
     }
+  }
+
+  .mobile-main-heading {
+    font-size: 42px !important;
+    line-height: 50px !important;
+  }
+  .mobile-p {
+    font-size: 16px !important;
+  }
+  .mobile-sub-heading {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .mobile-sub-p {
+    font-size: 14px !important;
+  }
+  section.section-big-padding {
+    padding: 40px 0;
+  }
+  section.section-padding {
+    padding: 30px 0;
   }
 }

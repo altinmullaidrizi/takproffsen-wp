@@ -75,3 +75,30 @@
 body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object {
   min-height: 60vh;
 }
+
+@media (max-width: 768px) {
+  .references-page {
+    section.reference-gallery-section {
+      .gallery {
+        a {
+          flex: 1 0 calc(49% - 10px);
+          margin: 5px;
+          width: calc(49% - 10px);
+          max-width: 49%;
+
+          &:nth-of-type(2) {
+            margin-top: 30px;
+          }
+
+          &:nth-of-type(2n + 1):not(:first-of-type) {
+            margin-top: -20px;
+          }
+
+          &:nth-of-type(2n + 2):not(:nth-of-type(2)) {
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}

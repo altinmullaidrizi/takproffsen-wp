@@ -15,15 +15,15 @@ $before_after_section = get_field( 'before_after_section' );
     <section class="main-section section-big-padding">
         <div class="container">
             <div class="row">
-                <h1 class="w-100"><?= $title ?></h1>
-                <p class="w-50 m-auto"><?= $description ?></p>
+                <h1 class="w-100 mobile-main-heading" data-aos="fade-up"><?= $title ?></h1>
+                <p class="w-50 m-auto mobile-p" data-aos="fade-up"><?= $description ?></p>
             </div>
         </div>
     </section>
 
-    <section class="section-padding before-after-section">
+    <section class="section-padding before-after-section" data-aos="fade-up">
         <div class="container">
-            <h2><?= $before_after_section['label'] ?></h2>
+            <h2 class="mobile-sub-heading"><?= $before_after_section['label'] ?></h2>
             <div class="row">
                 <div class="col-md-6">
                     <div id="slider" class="beer-slider">
@@ -60,7 +60,7 @@ $before_after_section = get_field( 'before_after_section' );
 						while ( have_rows( 'gallery' ) ) : the_row();
 							$image = get_sub_field( 'image' );
 							?>
-                            <a href="<?php echo esc_url( $image['url'] ); ?>">
+                            <a href="<?php echo esc_url( $image['url'] ); ?>" data-aos="fade-up">
                                 <img src="<?php echo esc_url( $image['url'] ); ?>"
                                      alt="<?php echo esc_url( $image['alt'] ); ?>">
                             </a>
