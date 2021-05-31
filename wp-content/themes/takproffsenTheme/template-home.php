@@ -22,7 +22,7 @@ $big_slider            = get_field( 'big_slider' );
 
 <div class="home-page">
     <section class="main-section"
-             style="background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url('<?= get_theme_file_uri( '/images/bkg-image.png' ) ?>')">
+             style="background-image: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%), url('<?= get_theme_file_uri() ?>/images/bkg-image.png')">
 
         <div class="content">
             <h1 class="mobile-main-heading" data-aos="fade-up"><?= $main_title ?></h1>
@@ -31,10 +31,24 @@ $big_slider            = get_field( 'big_slider' );
             </p>
             <a href="<?= $main_button_url ?>" class="btn" data-aos="fade-up"><?= $main_button_label ?></a>
         </div>
-        <div class="bottom-part">
-            <span><?= $main_bottom_text ?></span>
+        <!--        <div class="bottom-part">-->
+        <!--            <span>--><? //= $main_bottom_text ?><!--</span>-->
+        <!--        </div>-->
+        <div _ngcontent-c10="" class="decorated-bottom text-light">
+            <svg _ngcontent-c10="" preserveAspectRatio="none" viewBox="0 0 1000 40" xmlns="http://www.w3.org/2000/svg">
+                <path _ngcontent-c10=""
+                      d="M 0 35.4467 C 200 35.4467 308.935 0 508.935 0 C 708.935 0 800 40 1000 40 L 1000 50 L 0 50 L 0 35.4467 Z">
+                    <animate _ngcontent-c10="" attributeName="d" begin="0s" dur="5s" repeatCount="indefinite" values="
+              M0,0 C200,7.11236625e-15 200,40 400,40 C600,40 800,0 1000,0 L1000,50 L0,50 L0,0 Z;
+              M0,40 C200,40 400,0 600,0 C800,0 800,40 1000,40 L1000,50 L0,50 L0,40 Z;
+              M0,30 C200,30 200,0 400,0 C600,0 800,40 1000,40 L1000,50 L0,50 L0,30 Z;
+              M0,0 C200,7.11236625e-15 200,40 400,40 C600,40 800,0 1000,0 L1000,50 L0,50 L0,0 Z;"></animate>
+                </path>
+            </svg>
+            <div class="space">
+                            <span><?= $main_bottom_text ?></span>
+            </div>
         </div>
-
     </section>
 
     <section class="section-big-padding partners-sections">
@@ -59,7 +73,7 @@ $big_slider            = get_field( 'big_slider' );
         <div class="container">
             <div class="row home-colors-description">
                 <h1 class="w-100 mobile-sub-heading" data-aos="fade-up">Takväljaren</h1>
-                <p class="w-50 m-auto mobile-sub-p" data-aos="fade-up">Se hur ditt färdiga tak kommer se ut på
+                <p class="w-md-50 m-auto mobile-sub-p" data-aos="fade-up">Se hur ditt färdiga tak kommer se ut på
                     huset.</p>
             </div>
             <div class="row home-colors" data-aos="fade-up">
@@ -506,7 +520,7 @@ $big_slider            = get_field( 'big_slider' );
 							$link        = get_sub_field( 'link' );
 							?>
                             <div class="col-md-4" data-aos="fade-up">
-                                <a href="<?= $link ?>">
+                                <a href="<?= $link ?>" target="_blank">
                                     <div class="reference-holder">
                                         <div class="header">
                                             <div class="img-holder"><img

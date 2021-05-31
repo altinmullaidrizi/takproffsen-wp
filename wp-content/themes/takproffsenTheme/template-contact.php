@@ -19,7 +19,7 @@ $location_section          = get_field( 'location_section' );
         <div class="container">
             <div class="row">
                 <h1 class="w-100 mobile-main-heading" data-aos="fade-up"><?= $contact_page_main_heading ?></h1>
-                <p class="w-50 m-auto mobile-p" data-aos="fade-up"><?= $contact_description ?></p>
+                <p class="w-md-50 m-auto mobile-p" data-aos="fade-up"><?= $contact_description ?></p>
             </div>
         </div>
     </section>

@@ -80,6 +80,11 @@ header {
             color: #fff;
             font-size: 16px;
             font-weight: 700;
+
+            &:hover{
+              color: $green;
+              opacity: 1;
+            }
           }
         }
 
@@ -93,6 +98,15 @@ header {
       .call-btn {
         color: #fff;
         margin-right: 40px;
+
+        &:hover{
+          color: $green;
+          opacity: 1;
+
+          svg path{
+            stroke: $green;
+          }
+        }
       }
     }
   }
@@ -210,7 +224,7 @@ a{
 
       &:after {
         content: '';
-        opacity: 0;
+        opacity: 1;
         height: 60px;
         width: 60px;
         position: absolute;
@@ -222,7 +236,7 @@ a{
       }
       &:hover{
         &:after{
-          opacity: 1;
+          opacity: .5;
         }
       }
     }
@@ -258,7 +272,7 @@ a{
 
     .card {
       padding: 30px;
-      min-width: 280px;
+      min-width: 250px;
       margin: 15px;
       mix-blend-mode: normal;
       border-radius: 10px;

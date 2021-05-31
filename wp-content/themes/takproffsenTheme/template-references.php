@@ -16,7 +16,7 @@ $before_after_section = get_field( 'before_after_section' );
         <div class="container">
             <div class="row">
                 <h1 class="w-100 mobile-main-heading" data-aos="fade-up"><?= $title ?></h1>
-                <p class="w-50 m-auto mobile-p" data-aos="fade-up"><?= $description ?></p>
+                <p class="w-md-50 m-auto mobile-p" data-aos="fade-up"><?= $description ?></p>
             </div>
         </div>
     </section>
