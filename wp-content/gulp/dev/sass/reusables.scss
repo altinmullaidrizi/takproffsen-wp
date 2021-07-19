@@ -25,7 +25,7 @@
 
   .service {
     height: 200px;
-    border-radius: 10px;
+    //border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +33,10 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
+    background-color: #0000007a;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-blend-mode: multiply;
 
     span {
@@ -47,7 +51,7 @@
 
     &:hover {
       color: $green;
-
+      background-color: rgba(109, 134, 39, 0.51);
       svg {
         margin-right: 0;
         margin-left: 20px;
@@ -83,7 +87,7 @@
   }
 
   .beer-slider {
-    border-radius: 20px;
+    //border-radius: 20px;
     margin: 10px 5px;
   }
 
@@ -133,7 +137,7 @@
   top: 1%;
 }
   .modal-content {
-    border-radius: 20px !important;
+    //border-radius: 20px !important;
     padding: 40px 20px !important;
   }
 
@@ -188,7 +192,7 @@
   .popover-body {
     background: #FFFFFF;
     box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.14);
-    border-radius: 10px !important;
+    //border-radius: 10px !important;
     border: 1px solid #ffffff !important;
     font-family: Helvetica;
     font-style: normal;
@@ -248,7 +252,7 @@
 
   .view-final-home {
     background: $green !important;
-    border-radius: 90px !important;
+    //border-radius: 90px !important;
     padding: 22px 30px !important;
     font-family: Helvetica !important;
     font-style: normal !important;
@@ -290,7 +294,7 @@
     padding-top: 15px !important;
     padding-bottom: 15px !important;
     text-align: center;
-    border-radius: 6px 0px 0px 6px !important;
+    //border-radius: 6px 0px 0px 6px !important;
     font-size: 18px;
     line-height: 21px;
   }
@@ -298,11 +302,13 @@
   .nav-item > .active {
     background: #000000 !important;
     color: #ffffff;
-    border-radius: 6px 0px 0px 6px !important;
+    border-radius: unset;
+    //border-radius: 6px 0px 0px 6px !important;
   }
 
   .nav-item > .border-tab {
-    border-radius: 0px 6px 6px 0px !important;
+    border-radius: unset;
+    //border-radius: 0px 6px 6px 0px !important;
   }
 
   .color {
@@ -312,10 +318,10 @@
     font-size: 12px;
     line-height: 15px;
     height: 70px;
-    flex: 0 0 22%;
+    flex: 0 0 calc(25% - .5rem);
     color: #ffffff;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
+    //border-radius: 4px;
     text-align: center;
     display: -webkit-flex;
     display: flex;
@@ -337,7 +343,7 @@
   .section {
     cursor: pointer;
     /* padding: 20px 80px !important; */
-    border-radius: 6px 0px 0px 6px;
+    //border-radius: 6px 0px 0px 6px;
     border: 2px solid #000000;
   }
 
@@ -398,7 +404,7 @@
   .wallColor {
     height: 200px;
     box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.14);
-    border-radius: 10px;
+    //border-radius: 10px;
     position: relative;
 
   }
@@ -461,7 +467,7 @@
 
   @media only screen and (max-width: 1440px) {
     .color {
-      flex: 0 0 22%;
+      flex: 0 0 calc(25% - .5rem);
       font-size: 11px;
     }
   }

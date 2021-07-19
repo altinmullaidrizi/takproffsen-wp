@@ -24,19 +24,19 @@ $services         = get_field( 'services' );
     </section>
     <section class="color-picker-section">
         <div class="container">
-            <div class="row home-colors">
-                <div class="col-12 col-lg-4" data-aos="fade-up">
+            <div class="row home-colors" data-aos="fade-up">
+                <div class="col-12 col-lg-4">
                     <ul class="nav nav-pills mb-3 mt-3 building" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <a class="nav-link section active" id="pills-roof-tab" data-toggle="pill"
                                href="#pills-roof"
                                role="tab" aria-controls="pills-roof" aria-selected="true"
-                               data-text="Siding-shape">Roof</a>
+                               data-text="Siding-shape">Tak</a>
                         </li>
                         <li class="nav-item" role="presentation">
                             <a class="nav-link section border-tab" id="pills-wall-tab" data-toggle="pill"
                                href="#pills-wall" role="tab" aria-controls="pills-wall" aria-selected="false"
-                               data-text="Trim-shape">Wall</a>
+                               data-text="Trim-shape">Fasad</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
@@ -48,188 +48,178 @@ $services         = get_field( 'services' );
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Fjern
-                                    farve
+                                    Vit
                                 </div>
                                 <div class="color m-1 color-one" id="btn2" data-name="Mørkebrun"
                                      style="background-color: #493228" data-hex="#493228">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Mørkebrun
+                                    Mörkbrun
                                 </div>
                                 <div class="color m-1 color-one" id="btn3" data-name="Rødbrun"
                                      style="background-color: #774515" data-hex="#774515">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Rødbrun
+                                    Rödbrun
                                 </div>
                                 <div class="color m-1 color-one" id="btn4" data-name="Teglrød"
                                      style="background-color: #AA6829" data-hex="#AA6829">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Teglrød
+                                    Tegelröd
                                 </div>
                                 <div class="color text-dark m-1 color-one" id="btn5" data-name="Lysegrå"
                                      style="background-color: #E5E0D9" data-hex="#E5E0D9">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Lysegrå
+                                    Ljusgrå
                                 </div>
-                                <div class="color m-1 color-one" id="btn6" data-name="Mocca"
-                                     style="background-color: #614636" data-hex="#614636">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Mocca
-                                </div>
-                                <div class="color m-1 color-one" id="btn7" data-name="Specialrød"
-                                     style="background-color: #9D5026" data-hex="#9D5026">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Specialrød
-                                </div>
-                                <div class="color m-1 color-one" id="btn8" data-name="Antracit"
-                                     style="background-color: #242729" data-hex="#242729">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Antracit
-                                </div>
-                                <div class="color m-1 color-one" id="btn9" data-name="Oxydrød"
-                                     style="background-color: #7C2917" data-hex="#7C2917">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Oxydrød
-                                </div>
-                                <div class="color m-1 color-one" id="btn10" data-name="Antracitmørk"
-                                     style="background-color: #0B0A0B" data-hex="#0B0A0B">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Antracitmørk
-                                </div>
-                                <div class="color m-1 color-one" id="btn11" data-name="Blåsort"
-                                     style="background-color: #000116" data-hex="#000116">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Blåsort
-                                </div>
-                                <div class="color m-1 color-one" id="btn12" data-name="Bordeaux"
-                                     style="background-color: #522F2D" data-hex="#522F2D">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Bordeaux
-                                </div>
-                                <div class="color m-1 color-one" id="btn13" data-name="Sort"
-                                     style="background-color: #000000" data-hex="#000000">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Sort
-                                </div>
-                                <div class="color m-1 color-one" id="btn14" data-name="Grøn"
-                                     style="background-color: #1C473B" data-hex="#1C473B">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Grøn
-                                </div>
-                                <div class="color m-1 color-one" id="btn15" data-name="Blå"
-                                     style="background-color: #0E205C" data-hex="#0E205C">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Blå
-                                </div>
-                                <div class="color m-1 color-one" id="btn16" data-name="Svenskrød"
-                                     style="background-color: #653D31" data-hex="#653D31">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Svenskrød
-                                </div>
-                                <div class="color m-1 color-one" id="btn17" data-name="Skifergå"
+                                <div class="color m-1 color-one" id="btn6" data-name="Skifergå"
                                      style="background-color: #706F73" data-hex="#706F73">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
                                     Skifergå
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-wall" role="tabpanel" aria-labelledby="pills-wall-tab">
-                            <div class="colors">
-                                <div class="color text-dark m-1 color-two" id="btn18" style="background-color: #ffffff"
-                                     data-name="Fjern farve" data-hex="#ffffff">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Fjern farve
-                                </div>
-                                <div class="color m-1 color-two" id="btn19" style="background-color: #F0D7AB"
-                                     data-name="Sand" data-hex="#F0D7AB">
-                                <span class="checkmark">
-                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
-                                </span>
-                                    Sand
-                                </div>
-                                <div class="color m-1 color-two" id="btn20" data-name="Antracit"
-                                     style="background-color: #353F47" data-hex="#353F47">
+                                <div class="color m-1 color-one" id="btn7" data-name="Antracit"
+                                     style="background-color: #242729" data-hex="#242729">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
                                     Antracit
                                 </div>
-                                <div class="color m-1 text-dark color-two" id="btn21" data-name="Lys grå"
-                                     style="background-color: #D8DAD9" data-hex="#D8DAD9">
+                                <div class="color m-1 color-one" id="btn8" data-name="Bordeaux"
+                                     style="background-color: #522F2D" data-hex="#522F2D">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Lys
-                                    grå
+                                    Bordeaux
                                 </div>
-                                <div class="color text-dark m-1 color-two" id="btn22" data-name="Lys gul"
-                                     style="background-color: #F8E29D" data-hex="#F8E29D">
+                                <div class="color m-1 color-one" id="btn9" data-name="Oxydrød"
+                                     style="background-color: #7C2917" data-hex="#7C2917">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Lys gul
+                                    Oxydröd
                                 </div>
-                                <div class="color m-1 color-two" id="btn23" data-name="Murstendsrød"
-                                     style="background-color: #884326" data-hex="#884326">
+                                <div class="color m-1 color-one" id="btn10" data-name="Grøn"
+                                     style="background-color: #1C473B" data-hex="#1C473B">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Murstendsrød
+                                    Grön
                                 </div>
-                                <div class="color m-1 color-two" id="btn24" data-name="Murstensgul"
-                                     style="background-color: #F8D69A" data-hex="#F8D69A">
+                                <div class="color m-1 color-one" id="btn11" data-name="Blå"
+                                     style="background-color: #0E205C" data-hex="#0E205C">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Murstensgul
+                                    Blå
                                 </div>
-                                <div class="color m-1 text-dark color-two" id="btn25" data-name="Hvid"
+                                <div class="color m-1 color-one" id="btn12" data-name="Svart"
+                                     style="background-color: #000000" data-hex="#000000">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Svart
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-wall" role="tabpanel" aria-labelledby="pills-wall-tab">
+                            <div class="colors">
+                                <div class="color color-one text-dark m-1" data-name="Fjern farve" id="btn13"
                                      style="background-color: #ffffff" data-hex="#ffffff">
                                 <span class="checkmark">
                                     <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
                                 </span>
-                                    Hvid
+                                    Vit
                                 </div>
-
+                                <div class="color m-1 color-one" id="btn14" data-name="Mørkebrun"
+                                     style="background-color: #493228" data-hex="#493228">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Mörkbrun
+                                </div>
+                                <div class="color m-1 color-one" id="btn15" data-name="Rødbrun"
+                                     style="background-color: #774515" data-hex="#774515">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Rödbrun
+                                </div>
+                                <div class="color m-1 color-one" id="btn16" data-name="Teglrød"
+                                     style="background-color: #AA6829" data-hex="#AA6829">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Tegelröd
+                                </div>
+                                <div class="color text-dark m-1 color-one" id="btn17" data-name="Lysegrå"
+                                     style="background-color: #E5E0D9" data-hex="#E5E0D9">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Ljusgrå
+                                </div>
+                                <div class="color m-1 color-one" id="btn18" data-name="Skifergå"
+                                     style="background-color: #706F73" data-hex="#706F73">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Skifergå
+                                </div>
+                                <div class="color m-1 color-one" id="btn19" data-name="Antracit"
+                                     style="background-color: #242729" data-hex="#242729">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Antracit
+                                </div>
+                                <div class="color m-1 color-one" id="btn20" data-name="Bordeaux"
+                                     style="background-color: #522F2D" data-hex="#522F2D">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Bordeaux
+                                </div>
+                                <div class="color m-1 color-one" id="btn22" data-name="Oxydrød"
+                                     style="background-color: #7C2917" data-hex="#7C2917">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Oxydröd
+                                </div>
+                                <div class="color m-1 color-one" id="btn23" data-name="Grøn"
+                                     style="background-color: #1C473B" data-hex="#1C473B">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Grön
+                                </div>
+                                <div class="color m-1 color-one" id="btn23" data-name="Blå"
+                                     style="background-color: #0E205C" data-hex="#0E205C">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Blå
+                                </div>
+                                <div class="color m-1 color-one" id="btn24" data-name="Svart"
+                                     style="background-color: #000000" data-hex="#000000">
+                                <span class="checkmark">
+                                    <img src="<?= get_theme_file_uri() ?>/images/icon.png" alt="">
+                                </span>
+                                    Svart
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-12"  data-aos="fade-up">
+                <div class="col-lg-8 col-12">
                     <div id="container">
                         <svg id="Siding-svg" class="roof" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                              viewBox="0 0 1169 673">
@@ -246,7 +236,7 @@ $services         = get_field( 'services' );
                     </div>
                 </div>
             </div>
-            <div class="row mt-4" data-aos="fade-up">
+            <div class="row mt-4">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-4"></div>

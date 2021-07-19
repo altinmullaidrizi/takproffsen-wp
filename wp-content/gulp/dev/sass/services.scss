@@ -8,7 +8,7 @@
     .single-service{
       margin: 30px 0;
       .img{
-        border-radius: 20px 0px 0px 20px;
+        //border-radius: 20px 0px 0px 20px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -16,7 +16,7 @@
       .description{
         padding: 60px 30px;
         background: #F1F6FC;
-        border-radius: 0px 20px 20px 0px;
+        //border-radius: 0px 20px 20px 0px;
 
         h2{
           font-weight: bold;
@@ -34,10 +34,10 @@
 
       &.even{
         .img{
-          border-radius: 0px 20px 20px 0px;
+          //border-radius: 0px 20px 20px 0px;
         }
         .description{
-          border-radius: 20px 0px 0px 20px;
+          //border-radius: 20px 0px 0px 20px;
         }
       }
     }

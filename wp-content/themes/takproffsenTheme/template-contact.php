@@ -64,7 +64,7 @@ $location_section          = get_field( 'location_section' );
 					<?= do_shortcode( '[contact-form-7 id="85" title="Contact form 1"]' ) ?>
                 </div>
                 <div class="col-md-7 d-flex align-content-center" data-aos="fade-up">
-                    <img src="<?= get_theme_file_uri() ?>/images/bkg-image.png" alt="">
+                    <img src="<?= get_field('contact_form_image')['url'] ?>" alt="">
                 </div>
             </div>
         </div>

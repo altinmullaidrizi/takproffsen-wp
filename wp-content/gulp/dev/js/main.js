@@ -51,6 +51,12 @@ jQuery(document).ready(function () {
             prevEl: '.swiper-button-prev',
         },
     });
+    
+    $(window).on( "load", function() {
+       setTimeout(function (){
+           $('.loader').addClass('loaded');
+       }, 5000);
+    });
 });
 
 
@@ -175,14 +181,14 @@ var btn9 = document.getElementById('btn9');
 var btn10 = document.getElementById('btn10');
 var btn11 = document.getElementById('btn11');
 var btn12 = document.getElementById('btn12');
+
+var wallColor = document.getElementById('wallColor');
+var wallFormInput = jQuery('#wallColorInput');
 var btn13 = document.getElementById('btn13');
 var btn14 = document.getElementById('btn14');
 var btn15 = document.getElementById('btn15');
 var btn16 = document.getElementById('btn16');
 var btn17 = document.getElementById('btn17');
-
-var wallColor = document.getElementById('wallColor');
-var wallFormInput = jQuery('#wallColorInput');
 var btn18 = document.getElementById('btn18');
 var btn19 = document.getElementById('btn19');
 var btn20 = document.getElementById('btn20');
@@ -190,159 +196,155 @@ var btn21 = document.getElementById('btn21');
 var btn22 = document.getElementById('btn22');
 var btn23 = document.getElementById('btn23');
 var btn24 = document.getElementById('btn24');
-var btn25 = document.getElementById('btn25');
 
 
 btn1.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#ffffff";
-    roofColor.innerHTML = '<p>Roof Color: Fjern farve</p>';
-    roofFormInput.val("Fjern farve");
+    roofColor.innerHTML = '<p>Roof Color: Vit</p>';
+    roofFormInput.val("Vit");
 });
 
 btn2.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#493228";
-    roofColor.innerHTML = '<p>Roof Color: Mørkebrun</p>';
-    roofFormInput.val("Mørkebrun");
+    roofColor.innerHTML = '<p>Roof Color: Mörkbrun</p>';
+    roofFormInput.val("Mörkbrun");
 });
 
 btn3.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#774515";
-    roofColor.innerHTML = '<p>Roof Color: Rødbrun</p>';
-    roofFormInput.val("Rødbrun");
+    roofColor.innerHTML = '<p>Roof Color: Rödbrun</p>';
+    roofFormInput.val("Rödbrun");
 });
 
 btn4.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#AA6829";
-    roofColor.innerHTML = '<p>Roof Color: Teglrød</p>';
-    roofFormInput.val("Teglrød");
+    roofColor.innerHTML = '<p>Roof Color: Tegelröd</p>';
+    roofFormInput.val("Tegelröd");
 
 });
 
 btn5.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#E5E0D9";
-    roofColor.innerHTML = '<p>Roof Color: Lysegrå</p>';
-    roofFormInput.val("Lysegrå");
+    roofColor.innerHTML = '<p>Roof Color: Ljusgrå</p>';
+    roofFormInput.val("Ljusgrå");
 
 });
 
 btn6.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#614636";
-    roofColor.innerHTML = '<p>Roof Color: Mocca</p>';
-    roofFormInput.val("Mocca");
-
-});
-btn7.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#9D5026";
-    roofColor.innerHTML = '<p>Roof Color: Specialrød</p>';
-    roofFormInput.val("Specialrød");
-
-});
-btn8.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#242729";
-    roofColor.innerHTML = '<p>Roof Color: Antracit</p>';
-    roofFormInput.val("Antracit");
-
-});
-btn9.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#7C2917";
-    roofColor.innerHTML = '<p>Roof Color: Oxydrød</p>';
-    roofFormInput.val("Oxydrød");
-
-});
-btn10.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#0B0A0B";
-    roofColor.innerHTML = '<p>Roof Color: Antracitmørk</p>';
-    roofFormInput.val("Antracitmørk");
-
-});
-btn11.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#000116";
-    roofColor.innerHTML = '<p>Roof Color: Blåsort</p>';
-    roofFormInput.val("Blåsort");
-
-});
-btn12.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#522F2D";
-    roofColor.innerHTML = '<p>Roof Color: Bordeaux</p>';
-    roofFormInput.val("Bordeaux");
-
-});
-btn13.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#000000";
-    roofColor.innerHTML = '<p>Roof Color: Sort</p>';
-    roofFormInput.val("Sort");
-
-});
-btn14.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#1C473B";
-    roofColor.innerHTML = '<p>Roof Color: Grøn</p>';
-    roofFormInput.val("Grøn");
-
-});
-btn15.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#0E205C";
-    roofColor.innerHTML = '<p>Roof Color: Blå</p>';
-    roofFormInput.val("Blå");
-
-});
-btn16.addEventListener('click', function () {
-    roofColor.style.backgroundColor = "#653D31";
-    roofColor.innerHTML = '<p>Roof Color: Svenskrød</p>';
-    roofFormInput.val("Svenskrød");
-
-});
-btn17.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#706F73";
     roofColor.innerHTML = '<p>Roof Color: Skifergå</p>';
     roofFormInput.val("Skifergå");
 
 });
+btn7.addEventListener('click', function () {
+    roofColor.style.backgroundColor = "#242729";
+    roofColor.innerHTML = '<p>Roof Color: Antracit</p>';
+    roofFormInput.val("Antracit");
+
+});
+btn8.addEventListener('click', function () {
+    roofColor.style.backgroundColor = "#522F2D";
+    roofColor.innerHTML = '<p>Roof Color: Bordeaux</p>';
+    roofFormInput.val("Bordeaux");
+
+});
+btn9.addEventListener('click', function () {
+    roofColor.style.backgroundColor = "#7C2917";
+    roofColor.innerHTML = '<p>Roof Color: Oxydröd</p>';
+    roofFormInput.val("Oxydröd");
+
+});
+btn10.addEventListener('click', function () {
+    roofColor.style.backgroundColor = "#1C473B";
+    roofColor.innerHTML = '<p>Roof Color: Grön</p>';
+    roofFormInput.val("Grön");
+
+});
+btn11.addEventListener('click', function () {
+    roofColor.style.backgroundColor = "#0E205C";
+    roofColor.innerHTML = '<p>Roof Color: Blå</p>';
+    roofFormInput.val("Blå");
+
+});
+btn12.addEventListener('click', function () {
+    roofColor.style.backgroundColor = "#000000";
+    roofColor.innerHTML = '<p>Roof Color: Svart</p>';
+    roofFormInput.val("Svart");
+
+});
+btn13.addEventListener('click', function () {
+    wallColor.style.backgroundColor = "#ffffff";
+    wallColor.innerHTML = '<p>Wall Color: Vit</p>';
+    wallFormInput.val("Vit");
+});
+
+btn14.addEventListener('click', function () {
+    wallColor.style.backgroundColor = "#493228";
+    wallColor.innerHTML = '<p>Wall Color: Mörkbrun</p>';
+    wallFormInput.val("Mörkbrun");
+});
+
+btn15.addEventListener('click', function () {
+    wallColor.style.backgroundColor = "#774515";
+    wallColor.innerHTML = '<p>Wall Color: Rödbrun</p>';
+    wallFormInput.val("Rödbrun");
+});
+
+btn16.addEventListener('click', function () {
+    wallColor.style.backgroundColor = "#AA6829";
+    wallColor.innerHTML = '<p>Wall Color: Tegelröd</p>';
+    wallFormInput.val("Tegelröd");
+
+});
+
+btn17.addEventListener('click', function () {
+    wallColor.style.backgroundColor = "#E5E0D9";
+    wallColor.innerHTML = '<p>Wall Color: Ljusgrå</p>';
+    wallFormInput.val("Ljusgrå");
+
+});
+
 btn18.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#FFFFFF";
-    wallColor.innerHTML = '<p>Wall Color: Fjern farve</p>';
-    wallFormInput.val("Fjern farve");
+    wallColor.style.backgroundColor = "#706F73";
+    wallColor.innerHTML = '<p>Wall Color: Skifergå</p>';
+    wallFormInput.val("Skifergå");
 
 });
 btn19.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#F0D7AB";
-    wallColor.innerHTML = '<p>Wall Color: Sand</p>';
-    wallFormInput.val("Sand");
-
-});
-btn20.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#353F47";
+    wallColor.style.backgroundColor = "#242729";
     wallColor.innerHTML = '<p>Wall Color: Antracit</p>';
     wallFormInput.val("Antracit");
 
 });
+btn20.addEventListener('click', function () {
+    wallColor.style.backgroundColor = "#522F2D";
+    wallColor.innerHTML = '<p>Wall Color: Bordeaux</p>';
+    wallFormInput.val("Bordeaux");
+
+});
 btn21.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#D8DAD9";
-    wallColor.innerHTML = '<p>Wall Color: Lys grå</p>';
-    wallFormInput.val("Lys grå");
+    wallColor.style.backgroundColor = "#7C2917";
+    wallColor.innerHTML = '<p>Wall Color: Oxydröd</p>';
+    wallFormInput.val("Oxydröd");
 
 });
 btn22.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#F8E29D";
-    wallColor.innerHTML = '<p>Wall Color: Lys gul</p>';
-    wallFormInput.val("Lys gul");
+    wallColor.style.backgroundColor = "#1C473B";
+    wallColor.innerHTML = '<p>Wall Color: Grön</p>';
+    wallFormInput.val("Grön");
 
 });
 btn23.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#884326";
-    wallColor.innerHTML = '<p>Wall Color: Murstendsrød</p>';
-    wallFormInput.val("Murstendsrød");
+    wallColor.style.backgroundColor = "#0E205C";
+    wallColor.innerHTML = '<p>Wall Color: Blå</p>';
+    wallFormInput.val("Blå");
 
 });
 btn24.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#F8D69A";
-    wallColor.innerHTML = '<p>Wall Color: Murstensgul</p>';
-    wallFormInput.val("Murstensgul");
+    wallColor.style.backgroundColor = "#000000";
+    wallColor.innerHTML = '<p>Wall Color: Svart</p>';
+    wallFormInput.val("Svart");
 
-});
-btn25.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#FFFFFF";
-    wallColor.innerHTML = '<p>Wall Color: Hvid</p>';
-    wallFormInput.val("Hvid");
 });
 
 $(function () {

@@ -17,7 +17,7 @@ $background_image = get_field( 'background_image' );
         <div class="container">
             <div class="row">
                 <h1 class="w-100 text-white mobile-main-heading" data-aos="fade-up"><?= $title ?></h1>
-                <p class="w-md-50 m-auto text-white mobile-p" data-aos="fade-up"><?= $paragraph ?></p>
+                <p class="w-50 m-auto text-white mobile-p" data-aos="fade-up"><?= $paragraph ?></p>
             </div>
         </div>
     </section>
