@@ -124,9 +124,9 @@ function changeColor(e) {
     // set the hex color
     overlay().style.fill = hex;
     // var color = e.target.getAttribute('data-name')
-    // var div = document.getElementById('wallSelected').innerHTML = 'Wall Color: ' + color;
+    // var div = document.getElementById('wallSelected').innerHTML = 'Väggfärg: ' + color;
     // var colortwo = e.target.getAttribute('data-name')
-    // var divOne = document.getElementById('roofSelected').innerHTML = 'Roof Color: ' + colortwo;
+    // var divOne = document.getElementById('roofSelected').innerHTML = 'Takfärg: ' + colortwo;
 }
 
 var header = document.getElementById("pills-tab");
@@ -192,7 +192,7 @@ var btn17 = document.getElementById('btn17');
 var btn18 = document.getElementById('btn18');
 var btn19 = document.getElementById('btn19');
 var btn20 = document.getElementById('btn20');
-var btn21 = document.getElementById('btn21');
+// var btn21 = document.getElementById('btn21');
 var btn22 = document.getElementById('btn22');
 var btn23 = document.getElementById('btn23');
 var btn24 = document.getElementById('btn24');
@@ -200,149 +200,149 @@ var btn24 = document.getElementById('btn24');
 
 btn1.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#ffffff";
-    roofColor.innerHTML = '<p>Roof Color: Vit</p>';
+    roofColor.innerHTML = '<p>Takfärg: Vit</p>';
     roofFormInput.val("Vit");
 });
 
 btn2.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#493228";
-    roofColor.innerHTML = '<p>Roof Color: Mörkbrun</p>';
+    roofColor.innerHTML = '<p>Takfärg: Mörkbrun</p>';
     roofFormInput.val("Mörkbrun");
 });
 
 btn3.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#774515";
-    roofColor.innerHTML = '<p>Roof Color: Rödbrun</p>';
+    roofColor.innerHTML = '<p>Takfärg: Rödbrun</p>';
     roofFormInput.val("Rödbrun");
 });
 
 btn4.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#AA6829";
-    roofColor.innerHTML = '<p>Roof Color: Tegelröd</p>';
+    roofColor.innerHTML = '<p>Takfärg: Tegelröd</p>';
     roofFormInput.val("Tegelröd");
 
 });
 
 btn5.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#E5E0D9";
-    roofColor.innerHTML = '<p>Roof Color: Ljusgrå</p>';
+    roofColor.innerHTML = '<p>Takfärg: Ljusgrå</p>';
     roofFormInput.val("Ljusgrå");
 
 });
 
 btn6.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#706F73";
-    roofColor.innerHTML = '<p>Roof Color: Skifergå</p>';
+    roofColor.innerHTML = '<p>Takfärg: Skifergå</p>';
     roofFormInput.val("Skifergå");
 
 });
 btn7.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#242729";
-    roofColor.innerHTML = '<p>Roof Color: Antracit</p>';
+    roofColor.innerHTML = '<p>Takfärg: Antracit</p>';
     roofFormInput.val("Antracit");
 
 });
 btn8.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#522F2D";
-    roofColor.innerHTML = '<p>Roof Color: Bordeaux</p>';
+    roofColor.innerHTML = '<p>Takfärg: Bordeaux</p>';
     roofFormInput.val("Bordeaux");
 
 });
 btn9.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#7C2917";
-    roofColor.innerHTML = '<p>Roof Color: Oxydröd</p>';
+    roofColor.innerHTML = '<p>Takfärg: Oxydröd</p>';
     roofFormInput.val("Oxydröd");
 
 });
 btn10.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#1C473B";
-    roofColor.innerHTML = '<p>Roof Color: Grön</p>';
+    roofColor.innerHTML = '<p>Takfärg: Grön</p>';
     roofFormInput.val("Grön");
 
 });
 btn11.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#0E205C";
-    roofColor.innerHTML = '<p>Roof Color: Blå</p>';
+    roofColor.innerHTML = '<p>Takfärg: Blå</p>';
     roofFormInput.val("Blå");
 
 });
 btn12.addEventListener('click', function () {
     roofColor.style.backgroundColor = "#000000";
-    roofColor.innerHTML = '<p>Roof Color: Svart</p>';
+    roofColor.innerHTML = '<p>Takfärg: Svart</p>';
     roofFormInput.val("Svart");
 
 });
 btn13.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#ffffff";
-    wallColor.innerHTML = '<p>Wall Color: Vit</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Vit</p>';
     wallFormInput.val("Vit");
 });
 
 btn14.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#493228";
-    wallColor.innerHTML = '<p>Wall Color: Mörkbrun</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Mörkbrun</p>';
     wallFormInput.val("Mörkbrun");
 });
 
 btn15.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#774515";
-    wallColor.innerHTML = '<p>Wall Color: Rödbrun</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Rödbrun</p>';
     wallFormInput.val("Rödbrun");
 });
 
 btn16.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#AA6829";
-    wallColor.innerHTML = '<p>Wall Color: Tegelröd</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Tegelröd</p>';
     wallFormInput.val("Tegelröd");
 
 });
 
 btn17.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#E5E0D9";
-    wallColor.innerHTML = '<p>Wall Color: Ljusgrå</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Ljusgrå</p>';
     wallFormInput.val("Ljusgrå");
 
 });
 
 btn18.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#706F73";
-    wallColor.innerHTML = '<p>Wall Color: Skifergå</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Skifergå</p>';
     wallFormInput.val("Skifergå");
 
 });
 btn19.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#242729";
-    wallColor.innerHTML = '<p>Wall Color: Antracit</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Antracit</p>';
     wallFormInput.val("Antracit");
 
 });
 btn20.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#522F2D";
-    wallColor.innerHTML = '<p>Wall Color: Bordeaux</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Bordeaux</p>';
     wallFormInput.val("Bordeaux");
 
 });
-btn21.addEventListener('click', function () {
-    wallColor.style.backgroundColor = "#7C2917";
-    wallColor.innerHTML = '<p>Wall Color: Oxydröd</p>';
-    wallFormInput.val("Oxydröd");
+// btn21.addEventListener('click', function () {
+//     wallColor.style.backgroundColor = "#7C2917";
+//     wallColor.innerHTML = '<p>Väggfärg: Oxydröd</p>';
+//     wallFormInput.val("Oxydröd");
 
-});
+// });
 btn22.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#1C473B";
-    wallColor.innerHTML = '<p>Wall Color: Grön</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Grön</p>';
     wallFormInput.val("Grön");
 
 });
 btn23.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#0E205C";
-    wallColor.innerHTML = '<p>Wall Color: Blå</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Blå</p>';
     wallFormInput.val("Blå");
 
 });
 btn24.addEventListener('click', function () {
     wallColor.style.backgroundColor = "#000000";
-    wallColor.innerHTML = '<p>Wall Color: Svart</p>';
+    wallColor.innerHTML = '<p>Väggfärg: Svart</p>';
     wallFormInput.val("Svart");
 
 });

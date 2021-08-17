@@ -1,0 +1,426 @@
+0000.005 (0) Opened log file at time: Tue, 27 Jul 2021 02:35:50 +0000 on https://takproffsen.com
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 5.6.4 PHP: 7.4.21 (cgi-fcgi, Linux takproffsen.com 5.4.0-29-generic #33-Ubuntu SMP Wed Apr 29 14:32:27 UTC 2020 x86_64) MySQL: 10.3.30-MariaDB-1:10.3.30+maria~focal WPLANG: sv_SE Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1073741824 (used: 10.9M | 12M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 49342076 MB
+0000.022 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: monthly)
+0000.024 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.045 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1624763396, seconds_ago=2589954)
+0000.047 (0) Set semaphore last lock (fd) time to 2021-07-27 02:35:50
+0000.048 (0) Semaphore lock (fd) complete
+0000.051 (0) Backup run: resumption=0, nonce=6be4b22a5dff, file_nonce=6be4b22a5dff begun at=1627353350 (0s ago), job type=backup
+0000.053 (0) Scheduling a resumption (1) after 300 seconds (1627353650) in case this run gets aborted
+0000.091 (0) Checking if we have a zip executable available
+0000.093 (0) Creation of backups of directories: beginning
+0000.110 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 204, wp-content/plugins/updraftplus/backup.php)
+0000.113 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.165 (0) Total entities for the zip file: 397 directories, 3505 files (0 skipped as non-modified), 39.9 MB
+0003.168 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.256 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 100 files added (on-disk size: 73.1 KB)
+0003.317 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 200 files added (on-disk size: 73.1 KB)
+0003.370 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 300 files added (on-disk size: 73.1 KB)
+0003.433 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 400 files added (on-disk size: 73.1 KB)
+0003.493 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 500 files added (on-disk size: 73.1 KB)
+0003.546 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 600 files added (on-disk size: 73.1 KB)
+0003.601 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 700 files added (on-disk size: 73.1 KB)
+0003.659 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 800 files added (on-disk size: 73.1 KB)
+0003.742 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 900 files added (on-disk size: 73.1 KB)
+0003.798 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1000 files added (on-disk size: 73.1 KB)
+0003.800 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.4 MB, 3505 files batched, 1001 (1002) added so far); re-opening (prior size: 73.1 KB)
+0005.967 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1100 files added (on-disk size: 6363.7 KB)
+0006.027 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1200 files added (on-disk size: 6363.7 KB)
+0006.084 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1300 files added (on-disk size: 6363.7 KB)
+0006.150 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1400 files added (on-disk size: 6363.7 KB)
+0006.209 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1500 files added (on-disk size: 6363.7 KB)
+0006.267 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1600 files added (on-disk size: 6363.7 KB)
+0006.323 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1700 files added (on-disk size: 6363.7 KB)
+0006.380 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1800 files added (on-disk size: 6363.7 KB)
+0006.434 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 1900 files added (on-disk size: 6363.7 KB)
+0006.491 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2000 files added (on-disk size: 6363.7 KB)
+0006.494 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.1 MB, 3505 files batched, 1001 (2003) added so far); re-opening (prior size: 6363.7 KB)
+0007.486 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2100 files added (on-disk size: 7509 KB)
+0007.548 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2200 files added (on-disk size: 7509 KB)
+0007.610 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2300 files added (on-disk size: 7509 KB)
+0007.665 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2400 files added (on-disk size: 7509 KB)
+0007.717 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2500 files added (on-disk size: 7509 KB)
+0007.778 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2600 files added (on-disk size: 7509 KB)
+0007.837 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2700 files added (on-disk size: 7509 KB)
+0008.028 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2800 files added (on-disk size: 7509 KB)
+0008.093 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 2900 files added (on-disk size: 7509 KB)
+0008.172 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 3000 files added (on-disk size: 7509 KB)
+0008.177 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.6 MB, 3505 files batched, 1001 (3004) added so far); re-opening (prior size: 7509 KB)
+0011.664 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 3100 files added (on-disk size: 13055.5 KB)
+0011.820 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 3200 files added (on-disk size: 13055.5 KB)
+0011.893 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 3300 files added (on-disk size: 13055.5 KB)
+0011.966 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 3400 files added (on-disk size: 13055.5 KB)
+0012.028 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip.tmp: 3500 files added (on-disk size: 13055.5 KB)
+0013.574 (0) Created plugins zip (0) - 14339.7 KB in 13.5 s (1065.7 KB/s) (sha1: 107b7f602ed42aa95ce1c5a045271552a3f655ed, sha256: ef48195248d52d9e4b7c46a7b841ea77cedd05782e0b962dffd37990c2c4905d)
+0013.578 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 204, wp-content/plugins/updraftplus/backup.php)
+0013.579 (0) Beginning creation of dump of themes (split every: 400 MB)
+0014.219 (0) Total entities for the zip file: 118 directories, 654 files (0 skipped as non-modified), 16.5 MB
+0014.276 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.327 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0014.378 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0014.434 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0014.500 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0014.558 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0016.417 (0) Created themes zip (0) - 8948.2 KB in 2.8 s (3156.4 KB/s) (sha1: f1b74e81504f84290106284ac6db1d8a3ff0f4c6, sha256: d4523786062e066e22c9aa8892edcfedfc9a5fb9cddddc2f5288e46e5f470296)
+0016.421 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0016.422 (0) Looking for candidates to backup in: /customers/5/e/e/takproffsen.com/httpd.www/wp-content/uploads
+0016.430 (0) finding files: js_composer: adding to list (1)
+0016.431 (0) finding files: .DS_Store: adding to list (2)
+0016.432 (0) finding files: 2019: adding to list (3)
+0016.433 (0) finding files: 2020: adding to list (4)
+0016.434 (0) finding files: 2016: adding to list (5)
+0016.434 (0) finding files: masterslider: adding to list (6)
+0016.435 (0) finding files: 2015: adding to list (7)
+0016.436 (0) finding files: revslider: adding to list (8)
+0016.437 (0) finding files: 2021: adding to list (9)
+0016.438 (0) finding files: logs: adding to list (10)
+0016.439 (0) finding files: wpcf7_uploads: adding to list (11)
+0016.440 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 204, wp-content/plugins/updraftplus/backup.php)
+0016.442 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0018.257 (0) Total entities for the zip file: 417 directories, 1949 files (0 skipped as non-modified), 197.3 MB
+0018.313 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0018.400 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0019.020 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0019.100 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0019.167 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0019.180 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (21.5 MB, 511 (511) files added so far); re-opening (prior size: 0 KB)
+0020.553 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 600 files added (on-disk size: 22175.2 KB)
+0020.557 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (28.7 MB, 1949 files batched, 94 (605) added so far); re-opening (prior size: 22175.2 KB)
+0021.940 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.5 s, rate: 16678.8 KB/s)
+0021.942 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.759859085083, normalised_time=1.5348813192773, max_time=21.936571836472, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0022.016 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 700 files added (on-disk size: 51537.2 KB)
+0022.072 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 800 files added (on-disk size: 51537.2 KB)
+0022.130 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 900 files added (on-disk size: 51537.2 KB)
+0022.188 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1000 files added (on-disk size: 51537.2 KB)
+0022.245 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1100 files added (on-disk size: 51537.2 KB)
+0022.306 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1200 files added (on-disk size: 51537.2 KB)
+0022.368 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1300 files added (on-disk size: 51537.2 KB)
+0022.429 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1400 files added (on-disk size: 51537.2 KB)
+0022.501 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1500 files added (on-disk size: 51537.2 KB)
+0022.559 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1600 files added (on-disk size: 51537.2 KB)
+0022.563 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (66.3 MB, 1949 files batched, 1001 (1606) added so far); re-opening (prior size: 51537.2 KB)
+0027.123 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1700 files added (on-disk size: 119622.7 KB)
+0027.180 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1800 files added (on-disk size: 119622.7 KB)
+0027.247 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip.tmp: 1900 files added (on-disk size: 119622.7 KB)
+0036.787 (0) Created uploads zip (0) - 198950.1 KB in 20.3 s (9780.3 KB/s) (sha1: 508fbdc34494f0545c6b5a11e7863ac85412319b, sha256: 7188712c58df3291e5b9daeda5fe58847cdb64e932eccb821a4ba838a0dad5cc)
+0036.791 (0) Beginning backup of other directories found in the content directory (index: 0)
+0036.792 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0036.793 (0) Looking for candidates to backup in: /customers/5/e/e/takproffsen.com/httpd.www/wp-content
+0036.796 (0) finding files: languages: adding to list (1)
+0036.797 (0) finding files: oci: adding to list (2)
+0036.798 (0) finding files: plugins: skipping: this is the plugins directory
+0036.799 (0) finding files: .gitignore: adding to list (3)
+0036.800 (0) finding files: changelog.txt: adding to list (4)
+0036.801 (0) finding files: uploads: skipping: this is the uploads directory
+0036.802 (0) finding files: updraft: skipping: this is the updraft directory
+0036.803 (0) finding files: wp-config-sample.php: adding to list (5)
+0036.804 (0) finding files: themes: skipping: this is the themes directory
+0036.805 (0) finding files: index.php: adding to list (6)
+0036.806 (0) finding files: upgrade: skipping: excluded by options
+0036.807 (0) finding files: .htaccess: adding to list (7)
+0036.807 (0) finding files: .DS_Store: adding to list (8)
+0036.808 (0) finding files: debug.log: skipping: excluded by options
+0036.809 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0036.810 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 204, wp-content/plugins/updraftplus/backup.php)
+0037.608 (0) Total entities for the zip file: 9 directories, 974 files (0 skipped as non-modified), 36.4 MB
+0037.662 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0037.718 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0037.787 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0037.850 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0037.907 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0037.964 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 600 files added (on-disk size: 0 KB)
+0038.022 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 700 files added (on-disk size: 0 KB)
+0038.076 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 800 files added (on-disk size: 0 KB)
+0038.128 (0) Zip: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip.tmp: 900 files added (on-disk size: 0 KB)
+0043.877 (0) Created others zip (0) - 10666.1 KB in 7.1 s (1510.2 KB/s) (sha1: 8c2fb26200df357de10bf40244ebdd8191b5a888, sha256: 3fd9808236c27b39805a8e196448ba535df42edc1d2050a141f8b0ce092254e8)
+0043.884 (0) Saving backup status to database (elements: 8)
+0043.888 (0) Beginning creation of database dump (WordPress DB)
+0043.890 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0043.904 (0) Table wp_options: Total expected rows (approximate): 538
+0044.024 (0) Table wp_options: Rows added in this batch (next record: 32590): 304 (uncompressed bytes in this segment=1304512) in 0.12 seconds
+0044.035 (0) Table wp_options: finishing file(s) (2, 138.3 KB)
+0044.039 (0) Table wp_users: Total expected rows (approximate): 1
+0044.043 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1336) in 0.00 seconds
+0044.053 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0044.057 (0) Table wp_usermeta: Total expected rows (approximate): 26
+0044.061 (0) Table wp_usermeta: Rows added in this batch (next record: 64): 26 (uncompressed bytes in this segment=2605) in 0.00 seconds
+0044.069 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0044.074 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0044.077 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.00 seconds
+0044.085 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0044.089 (0) Table wp_comments: Total expected rows (approximate): 0
+0044.092 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1679) in 0.00 seconds
+0044.105 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0044.113 (0) Table wp_links: Total expected rows (approximate): 0
+0044.117 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0044.126 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0044.134 (0) Table wp_postmeta: Total expected rows (approximate): 2420
+0044.210 (0) Table wp_postmeta: Rows added in this batch (next record: 4875): 3643 (uncompressed bytes in this segment=919479) in 0.08 seconds
+0044.221 (0) Table wp_postmeta: finishing file(s) (2, 137.7 KB)
+0044.225 (0) Table wp_posts: Total expected rows (approximate): 283
+0044.258 (0) Table wp_posts: Rows added in this batch (next record: 623): 355 (uncompressed bytes in this segment=284237) in 0.03 seconds
+0044.267 (0) Table wp_posts: finishing file(s) (2, 53.9 KB)
+0044.272 (0) Table wp_term_relationships: Total expected rows (approximate): 180
+0044.277 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 180 (uncompressed bytes in this segment=3202) in 0.00 seconds
+0044.285 (0) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+0044.290 (0) Table wp_term_taxonomy: Total expected rows (approximate): 6
+0044.295 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1097) in 0.00 seconds
+0044.304 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0044.309 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0044.313 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0044.326 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0044.331 (0) Table wp_terms: Total expected rows (approximate): 6
+0044.334 (0) Table wp_terms: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=915) in 0.00 seconds
+0044.344 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0044.352 (0) Table wp_categorymeta: Total expected rows (approximate): 0
+0044.356 (0) Table wp_categorymeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=527) in 0.00 seconds
+0044.363 (0) Table wp_categorymeta: finishing file(s) (2, 0.3 KB)
+0044.371 (0) Table wp_layerslider: Total expected rows (approximate): 1
+0044.375 (0) Table wp_layerslider: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=3593) in 0.00 seconds
+0044.385 (0) Table wp_layerslider: finishing file(s) (2, 1.3 KB)
+0044.394 (0) Table wp_masterslider_options: Total expected rows (approximate): 3
+0044.398 (0) Table wp_masterslider_options: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=30920) in 0.00 seconds
+0044.406 (0) Table wp_masterslider_options: finishing file(s) (2, 4.3 KB)
+0044.413 (0) Table wp_masterslider_sliders: Total expected rows (approximate): 0
+0044.416 (0) Table wp_masterslider_sliders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.00 seconds
+0044.424 (0) Table wp_masterslider_sliders: finishing file(s) (2, 0.4 KB)
+0044.432 (0) Table wp_member_catmeta: Total expected rows (approximate): 0
+0044.435 (0) Table wp_member_catmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=541) in 0.00 seconds
+0044.453 (0) Table wp_member_catmeta: finishing file(s) (2, 0.3 KB)
+0044.466 (0) Table wp_portfolio_catmeta: Total expected rows (approximate): 0
+0044.471 (0) Table wp_portfolio_catmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=562) in 0.00 seconds
+0044.479 (0) Table wp_portfolio_catmeta: finishing file(s) (2, 0.3 KB)
+0044.488 (0) Table wp_product_catmeta: Total expected rows (approximate): 0
+0044.492 (0) Table wp_product_catmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=548) in 0.00 seconds
+0044.499 (0) Table wp_product_catmeta: finishing file(s) (2, 0.3 KB)
+0044.506 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0044.514 (0) Table wp_revslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=90723) in 0.01 seconds
+0044.522 (0) Table wp_revslider_css: finishing file(s) (2, 4.8 KB)
+0044.530 (0) Table wp_revslider_css_bkp: Total expected rows (approximate): 109
+0044.538 (0) Table wp_revslider_css_bkp: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=90751) in 0.01 seconds
+0044.546 (0) Table wp_revslider_css_bkp: finishing file(s) (2, 4.8 KB)
+0044.550 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0044.553 (0) Table wp_revslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=553) in 0.00 seconds
+0044.561 (0) Table wp_revslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0044.568 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (approximate): 0
+0044.572 (0) Table wp_revslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=577) in 0.00 seconds
+0044.581 (0) Table wp_revslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0044.589 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0044.593 (0) Table wp_revslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0044.603 (0) Table wp_revslider_navigations: finishing file(s) (2, 0.3 KB)
+0044.611 (0) Table wp_revslider_navigations_bkp: Total expected rows (approximate): 0
+0044.615 (0) Table wp_revslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0044.627 (0) Table wp_revslider_navigations_bkp: finishing file(s) (2, 0.3 KB)
+0044.633 (0) Table wp_revslider_sliders: Total expected rows (approximate): 2
+0044.638 (0) Table wp_revslider_sliders: Rows added in this batch (next record: 10): 2 (uncompressed bytes in this segment=16267) in 0.00 seconds
+0044.648 (0) Table wp_revslider_sliders: finishing file(s) (2, 2.9 KB)
+0044.656 (0) Table wp_revslider_sliders_bkp: Total expected rows (approximate): 2
+0044.661 (0) Table wp_revslider_sliders_bkp: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=21063) in 0.00 seconds
+0044.670 (0) Table wp_revslider_sliders_bkp: finishing file(s) (2, 3.4 KB)
+0044.676 (0) Table wp_revslider_slides: Total expected rows (approximate): 2
+0044.681 (0) Table wp_revslider_slides: Rows added in this batch (next record: 16): 2 (uncompressed bytes in this segment=13468) in 0.00 seconds
+0044.689 (0) Table wp_revslider_slides: finishing file(s) (2, 2.3 KB)
+0044.697 (0) Table wp_revslider_slides_bkp: Total expected rows (approximate): 2
+0044.700 (0) Table wp_revslider_slides_bkp: Rows added in this batch (next record: 10): 2 (uncompressed bytes in this segment=10342) in 0.00 seconds
+0044.709 (0) Table wp_revslider_slides_bkp: finishing file(s) (2, 1.7 KB)
+0044.717 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 2
+0044.721 (0) Table wp_revslider_static_slides: Rows added in this batch (next record: 7): 2 (uncompressed bytes in this segment=836) in 0.00 seconds
+0044.729 (0) Table wp_revslider_static_slides: finishing file(s) (2, 0.4 KB)
+0044.737 (0) Table wp_revslider_static_slides_bkp: Total expected rows (approximate): 1
+0044.742 (0) Table wp_revslider_static_slides_bkp: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=38596) in 0.00 seconds
+0044.757 (0) Table wp_revslider_static_slides_bkp: finishing file(s) (2, 3.3 KB)
+0044.764 (0) Table wp_translations: Total expected rows (approximate): 0
+0044.767 (0) Table wp_translations: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=548) in 0.00 seconds
+0044.774 (0) Table wp_translations: finishing file(s) (2, 0.3 KB)
+0044.781 (0) Table wp_translations_log: Total expected rows (approximate): 0
+0044.783 (0) Table wp_translations_log: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=737) in 0.00 seconds
+0044.793 (0) Table wp_translations_log: finishing file(s) (2, 0.4 KB)
+0044.795 (0) Skipping table (lacks our prefix (wp_)): www_commentmeta
+0044.796 (0) Skipping table (lacks our prefix (wp_)): www_comments
+0044.797 (0) Skipping table (lacks our prefix (wp_)): www_links
+0044.798 (0) Skipping table (lacks our prefix (wp_)): www_options
+0044.799 (0) Skipping table (lacks our prefix (wp_)): www_postmeta
+0044.801 (0) Skipping table (lacks our prefix (wp_)): www_posts
+0044.802 (0) Skipping table (lacks our prefix (wp_)): www_term_relationships
+0044.803 (0) Skipping table (lacks our prefix (wp_)): www_term_taxonomy
+0044.804 (0) Skipping table (lacks our prefix (wp_)): www_termmeta
+0044.806 (0) Skipping table (lacks our prefix (wp_)): www_terms
+0044.807 (0) Skipping table (lacks our prefix (wp_)): www_usermeta
+0044.809 (0) Skipping table (lacks our prefix (wp_)): www_users
+0044.812 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_options.table.tmpr32591.gz (1/45): adding to final database dump
+0044.853 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_options.table.gz (2/45): adding to final database dump
+0044.855 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_users.table.tmpr2.gz (3/45): adding to final database dump
+0044.857 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_users.table.gz (4/45): adding to final database dump
+0044.859 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_usermeta.table.tmpr65.gz (5/45): adding to final database dump
+0044.861 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_usermeta.table.gz (6/45): adding to final database dump
+0044.862 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_commentmeta.table.tmpr0.gz (7/45): adding to final database dump
+0044.864 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_commentmeta.table.gz (8/45): adding to final database dump
+0044.866 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_comments.table.tmpr0.gz (9/45): adding to final database dump
+0044.868 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_comments.table.gz (10/45): adding to final database dump
+0044.869 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_links.table.tmpr0.gz (11/45): adding to final database dump
+0044.871 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_links.table.gz (12/45): adding to final database dump
+0044.873 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_postmeta.table.tmpr4876.gz (13/45): adding to final database dump
+0044.912 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_postmeta.table.gz (14/45): adding to final database dump
+0044.914 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_posts.table.tmpr624.gz (15/45): adding to final database dump
+0044.927 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_posts.table.gz (16/45): adding to final database dump
+0044.929 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_term_relationships.table.tmpr100001.gz (17/45): adding to final database dump
+0044.932 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_term_relationships.table.gz (18/45): adding to final database dump
+0044.933 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_term_taxonomy.table.tmpr7.gz (19/45): adding to final database dump
+0044.935 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_term_taxonomy.table.gz (20/45): adding to final database dump
+0044.937 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_termmeta.table.tmpr0.gz (21/45): adding to final database dump
+0044.939 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_termmeta.table.gz (22/45): adding to final database dump
+0044.941 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_terms.table.tmpr7.gz (23/45): adding to final database dump
+0044.942 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_terms.table.gz (24/45): adding to final database dump
+0044.945 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_categorymeta.table.tmpr0.gz (25/45): adding to final database dump
+0044.947 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_categorymeta.table.gz (26/45): adding to final database dump
+0044.949 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_layerslider.table.tmpr2.gz (27/45): adding to final database dump
+0044.951 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_layerslider.table.gz (28/45): adding to final database dump
+0044.953 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_masterslider_options.table.tmpr4.gz (29/45): adding to final database dump
+0044.956 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_masterslider_options.table.gz (30/45): adding to final database dump
+0044.958 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_masterslider_sliders.table.tmpr0.gz (31/45): adding to final database dump
+0044.960 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_masterslider_sliders.table.gz (32/45): adding to final database dump
+0044.961 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_member_catmeta.table.tmpr0.gz (33/45): adding to final database dump
+0044.962 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_member_catmeta.table.gz (34/45): adding to final database dump
+0044.963 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_portfolio_catmeta.table.tmpr0.gz (35/45): adding to final database dump
+0044.965 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_portfolio_catmeta.table.gz (36/45): adding to final database dump
+0044.966 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_product_catmeta.table.tmpr0.gz (37/45): adding to final database dump
+0044.968 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_product_catmeta.table.gz (38/45): adding to final database dump
+0044.969 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_css.table.tmpr110.gz (39/45): adding to final database dump
+0044.974 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_css.table.gz (40/45): adding to final database dump
+0044.976 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_css_bkp.table.tmpr110.gz (41/45): adding to final database dump
+0044.980 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_css_bkp.table.gz (42/45): adding to final database dump
+0044.982 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_layer_animations.table.tmpr0.gz (43/45): adding to final database dump
+0044.984 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_layer_animations.table.gz (44/45): adding to final database dump
+0044.985 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_layer_animations_bkp.table.tmpr0.gz (45/45): adding to final database dump
+0044.987 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_layer_animations_bkp.table.gz (46/45): adding to final database dump
+0044.989 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_navigations.table.tmpr0.gz (47/45): adding to final database dump
+0044.991 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_navigations.table.gz (48/45): adding to final database dump
+0044.993 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_navigations_bkp.table.tmpr0.gz (49/45): adding to final database dump
+0044.995 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_navigations_bkp.table.gz (50/45): adding to final database dump
+0044.996 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_sliders.table.tmpr11.gz (51/45): adding to final database dump
+0044.999 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_sliders.table.gz (52/45): adding to final database dump
+0045.001 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_sliders_bkp.table.tmpr5.gz (53/45): adding to final database dump
+0045.004 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_sliders_bkp.table.gz (54/45): adding to final database dump
+0045.006 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_slides.table.tmpr17.gz (55/45): adding to final database dump
+0045.008 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_slides.table.gz (56/45): adding to final database dump
+0045.010 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_slides_bkp.table.tmpr11.gz (57/45): adding to final database dump
+0045.012 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_slides_bkp.table.gz (58/45): adding to final database dump
+0045.013 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_static_slides.table.tmpr8.gz (59/45): adding to final database dump
+0045.016 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_static_slides.table.gz (60/45): adding to final database dump
+0045.018 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_static_slides_bkp.table.tmpr2.gz (61/45): adding to final database dump
+0045.021 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_revslider_static_slides_bkp.table.gz (62/45): adding to final database dump
+0045.023 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_translations.table.tmpr1.gz (63/45): adding to final database dump
+0045.025 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_translations.table.gz (64/45): adding to final database dump
+0045.026 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_translations_log.table.tmpr1.gz (65/45): adding to final database dump
+0045.028 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db-table-wp_translations_log.table.gz (66/45): adding to final database dump
+0045.170 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz: finished writing out complete database file (336 KB)
+0045.226 (0) Total database tables backed up: 33 (backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz, size: 368504, sha1: c0e2d22dba182c068e21a0725533f7d289785a76, sha256: fc5ff605e323b4727eb3dd43ebb021641c034af7d11b5c05160d721582369caf)
+0045.233 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0045.234 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0045.235 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0045.236 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip: others: This file has not yet been successfully uploaded: will queue
+0045.237 (0) backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz: db: This file has not yet been successfully uploaded: will queue
+0045.238 (0) Saving backup history. Total backup size: 227.8 MB
+0045.242 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0045.245 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0045.246 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-f7aad9558a510c0462f65be7902cd697)
+0045.247 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0045.265 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0045.662 (0) Dropbox: quota usage: used=50956 MB, total=2099456 MB, available=2048500 MB
+0045.663 (0) Dropbox: Attempt to upload: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip to: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip
+0047.563 (0) Dropbox chunked upload: 7.1 % uploaded (AAAAAAAAMuYNViS8plDUzQ, 1048576, 4608 KB)
+0050.974 (0) Dropbox chunked upload: 39.3 % uploaded (AAAAAAAAMuYNViS8plDUzQ, 5767168, 10240 KB)
+0053.242 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMuYNViS8plDUzQ, 14683860, 10240 KB)
+0055.111 (0) Recording as successfully uploaded: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip
+0055.116 (0) Deleting local file: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip: OK
+0055.117 (0) Dropbox: File upload success (backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-plugins.zip): 14339 KB in 9s (1516 KB/s)
+0055.407 (0) Dropbox: quota usage: used=50970 MB, total=2099456 MB, available=2048486 MB
+0055.408 (0) Dropbox: Attempt to upload: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip to: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip
+0057.799 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMuego_NVZKuwKQ, 9162931, 10240 KB)
+0059.365 (0) Recording as successfully uploaded: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip
+0059.371 (0) Deleting local file: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip: OK
+0059.372 (0) Dropbox: File upload success (backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-themes.zip): 8948 KB in 3s (2257 KB/s)
+0059.674 (0) Dropbox: quota usage: used=50978.7 MB, total=2099456 MB, available=2048477.3 MB
+0059.675 (0) Dropbox: Attempt to upload: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip to: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip
+0063.772 (0) Dropbox chunked upload: 5.1 % uploaded (AAAAAAAAMuhLND4th863VA, 10485760, 10240 KB)
+0065.834 (0) Dropbox chunked upload: 10.3 % uploaded (AAAAAAAAMuhLND4th863VA, 20971520, 10240 KB)
+0068.250 (0) Dropbox chunked upload: 15.4 % uploaded (AAAAAAAAMuhLND4th863VA, 31457280, 10240 KB)
+0070.384 (0) Dropbox chunked upload: 20.6 % uploaded (AAAAAAAAMuhLND4th863VA, 41943040, 10240 KB)
+0073.150 (0) Dropbox chunked upload: 25.7 % uploaded (AAAAAAAAMuhLND4th863VA, 52428800, 10240 KB)
+0075.447 (0) Dropbox chunked upload: 30.9 % uploaded (AAAAAAAAMuhLND4th863VA, 62914560, 10240 KB)
+0079.119 (0) Dropbox chunked upload: 36 % uploaded (AAAAAAAAMuhLND4th863VA, 73400320, 10240 KB)
+0081.457 (0) Dropbox chunked upload: 41.2 % uploaded (AAAAAAAAMuhLND4th863VA, 83886080, 10240 KB)
+0084.004 (0) Dropbox chunked upload: 46.3 % uploaded (AAAAAAAAMuhLND4th863VA, 94371840, 10240 KB)
+0087.182 (0) Dropbox chunked upload: 51.5 % uploaded (AAAAAAAAMuhLND4th863VA, 104857600, 10240 KB)
+0089.767 (0) Dropbox chunked upload: 56.6 % uploaded (AAAAAAAAMuhLND4th863VA, 115343360, 10240 KB)
+0092.147 (0) Dropbox chunked upload: 61.8 % uploaded (AAAAAAAAMuhLND4th863VA, 125829120, 10240 KB)
+0096.295 (0) Dropbox chunked upload: 66.9 % uploaded (AAAAAAAAMuhLND4th863VA, 136314880, 10240 KB)
+0099.224 (0) Dropbox chunked upload: 72.1 % uploaded (AAAAAAAAMuhLND4th863VA, 146800640, 10240 KB)
+0102.648 (0) Dropbox chunked upload: 77.2 % uploaded (AAAAAAAAMuhLND4th863VA, 157286400, 10240 KB)
+0104.863 (0) Dropbox chunked upload: 82.4 % uploaded (AAAAAAAAMuhLND4th863VA, 167772160, 10240 KB)
+0106.676 (0) Dropbox chunked upload: 87.5 % uploaded (AAAAAAAAMuhLND4th863VA, 178257920, 10240 KB)
+0108.555 (0) Dropbox chunked upload: 92.6 % uploaded (AAAAAAAAMuhLND4th863VA, 188743680, 10240 KB)
+0112.251 (0) Dropbox chunked upload: 97.8 % uploaded (AAAAAAAAMuhLND4th863VA, 199229440, 10240 KB)
+0115.759 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMuhLND4th863VA, 203724920, 10240 KB)
+0116.996 (0) Recording as successfully uploaded: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip
+0117.033 (0) Deleting local file: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip: OK
+0117.034 (0) Dropbox: File upload success (backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-uploads.zip): 198950 KB in 57s (3468 KB/s)
+0117.390 (0) Dropbox: quota usage: used=51173 MB, total=2099456 MB, available=2048283 MB
+0117.391 (0) Dropbox: Attempt to upload: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip to: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip
+0121.205 (0) Dropbox chunked upload: 96 % uploaded (AAAAAAAAMulZEHszlV83ew, 10485760, 10240 KB)
+0123.785 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMulZEHszlV83ew, 10922114, 10240 KB)
+0124.882 (0) Recording as successfully uploaded: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip
+0124.888 (0) Deleting local file: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip: OK
+0124.889 (0) Dropbox: File upload success (backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-others.zip): 10666 KB in 7s (1422 KB/s)
+0125.158 (0) Dropbox: quota usage: used=51183.5 MB, total=2099456 MB, available=2048272.5 MB
+0125.160 (0) Dropbox: Attempt to upload: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz to: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz
+0125.766 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMuqfdf6HzrljQg, 368504, 10240 KB)
+0126.855 (0) Recording as successfully uploaded: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz
+0126.858 (0) Deleting local file: backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz: OK
+0126.859 (0) Dropbox: File upload success (backup_2021-07-27-0435_Takproffsen_AB_6be4b22a5dff-db.gz): 359 KB in 1s (211 KB/s)
+0126.866 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0126.867 (0) Number of backup sets in history: 2; groups (db): 1
+0126.868 (0) Examining (for databases) backup set with group_id=0, nonce=6be4b22a5dff, datestamp=1627353350 (Jul 27 2021 02:35:50)
+0126.869 (0) This backup set is the backup set just made, so will not be deleted.
+0126.869 (0) Examining (for databases) backup set with group_id=0, nonce=47bbe07b0fea, datestamp=1624763396 (Jun 27 2021 03:09:56)
+0126.869 (0) 1624763396: db: this set includes a database (backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-db.gz); db count is now 1
+0126.869 (0) 1624763396: db: over retain limit (1); will delete this database
+0126.869 (0) Delete file: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-db.gz, service=dropbox
+0126.871 (0) Dropbox: request deletion: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-db.gz
+0128.576 (0) Dropbox: deletion succeeded
+0128.579 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0128.580 (0) Number of backup sets in history: 2; groups (files): 1
+0128.581 (0) Examining (for files) backup set with nonce=6be4b22a5dff, datestamp=1627353350 (Jul 27 2021 02:35:50)
+0128.581 (0) This backup set is the backup set just made, so will not be deleted.
+0128.582 (0) This backup set is the backup set just made, so will not be deleted.
+0128.582 (0) This backup set is the backup set just made, so will not be deleted.
+0128.582 (0) This backup set is the backup set just made, so will not be deleted.
+0128.582 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0128.583 (0) Examining (for files) backup set with nonce=47bbe07b0fea, datestamp=1624763396 (Jun 27 2021 03:09:56)
+0128.583 (0) plugins: over retain limit (1); will delete this file entity
+0128.583 (0) themes: over retain limit (1); will delete this file entity
+0128.583 (0) uploads: over retain limit (1); will delete this file entity
+0128.583 (0) others: over retain limit (1); will delete this file entity
+0128.583 (0) Delete file: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-plugins.zip, service=dropbox
+0128.585 (0) Delete file: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-themes.zip, service=dropbox
+0128.586 (0) Delete file: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-uploads.zip, service=dropbox
+0128.588 (0) Delete file: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-others.zip, service=dropbox
+0128.590 (0) Dropbox: request deletion: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-plugins.zip
+0129.397 (0) Dropbox: deletion succeeded
+0129.399 (0) Dropbox: request deletion: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-themes.zip
+0130.112 (0) Dropbox: deletion succeeded
+0130.113 (0) Dropbox: request deletion: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-uploads.zip
+0130.928 (0) Dropbox: deletion succeeded
+0130.929 (0) Dropbox: request deletion: backup_2021-06-27-0509_Takproffsen_AB_47bbe07b0fea-others.zip
+0131.949 (0) Dropbox: deletion succeeded
+0131.952 (0) This backup set is now empty; will remove from history
+0131.953 (0) Deleting log file (log.47bbe07b0fea.txt)
+0131.954 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0131.958 (0) Resume backup (6be4b22a5dff, 0): finish run
+0131.960 (0) Decremented the semaphore (fd) by 1
+0131.962 (0) Semaphore (fd) unlocked
+0131.962 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0131.966 (0) The backup apparently succeeded and is now complete
+0131.966 (0) No email will/can be sent - the user has not configured an email address.
+0131.967 (0) Säkerhetskopieringen lyckades och är nu klar

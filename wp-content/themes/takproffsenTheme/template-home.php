@@ -310,19 +310,18 @@ $big_slider            = get_field( 'big_slider' );
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Get a quote from our
-                            proffesinal team</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Få en offert från oss</h5>
                         <button class="close-btn" data-toggle="modal" data-target="#exampleModal">X</button>
                     </div>
                     <div class="modal-body">
 					    <?= do_shortcode( '[contact-form-7 id="335" title="Chosen Color"]' ) ?>
                         <div class="d-flex">
-                            <p class="chosen-colors-text">Colors you have chosen</p>
+                            <p class="chosen-colors-text">Färger du har valt</p>
                             <div class="info-text">
                                 <button type="button" class="btn btn-secondary info-button"
                                         data-container="body" data-toggle="popover"
                                         data-placement="top"
-                                        data-content="After filling the form, we will contact you soon with the colors you have chosen for your roof & wall.">
+                                        data-content="Efter att ha fyllt i formuläret kommer vi snart att kontakta dig med de färger du valt för ditt tak och vägg.">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                          height="16" fill="currentColor"
                                          class="bi bi-info-circle-fill" viewBox="0 0 16 16">

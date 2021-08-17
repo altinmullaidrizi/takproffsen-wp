@@ -1,0 +1,84 @@
+# Translation of Plugins - WP Database Reset - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - WP Database Reset - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-25 14:31:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WP Database Reset - Stable (latest release)\n"
+
+#: views/partials/submit-button.php:2
+msgid "Reset Tables"
+msgstr "Återställ tabeller"
+
+#: views/partials/select-tables.php:4
+msgid "Select All"
+msgstr "Välj alla"
+
+#: views/partials/select-tables.php:1
+msgid "Select the database tables you would like to reset"
+msgstr "Välj databastabellerna som du vill återställa"
+
+#: lib/helpers.php:116
+msgid "Your chosen password."
+msgstr "Ditt valda lösenord."
+
+#: class-db-reset-admin.php:177
+msgid "Select Tables"
+msgstr "Välj tabeller"
+
+#: class-db-reset-admin.php:176
+msgid "Are you sure you want to continue?"
+msgstr "Är du säker på att du vill fortsätta?"
+
+#: class-db-reset-admin.php:107 class-db-reset-admin.php:108 views/index.php:2
+msgid "Database Reset"
+msgstr "Databasåterställning"
+
+#: class-db-resetter.php:35
+msgid "You did not select any database tables"
+msgstr "Du valde inga databastabeller"
+
+#: class-db-reset-command.php:95
+msgid "The current theme and plugins were reactivated"
+msgstr "Det nuvarande temat och tilläggen återaktiverades"
+
+#: lib/helpers.php:29
+msgid "The WordPress Database Reset plugin requires at least PHP 5.3!"
+msgstr "Tillägget WordPress Database Reset kräver minst PHP 5.3!"
+
+#: lib/helpers.php:33
+msgid "The WordPress Database Reset plugin requires at least WordPress 3.0!"
+msgstr "Tillägget WordPress Database Reset kräver minst WordPress 3.0!"
+
+#: views/partials/select-tables.php:15
+msgid "Reactivate current theme and plugins after reset?"
+msgstr "Återaktivera nuvarande tema och tillägg efter återställning?"
+
+#: views/partials/security-code.php:2
+msgid "Enter the security code into the text box"
+msgstr "Ange säkerhetskoden i textrutan"
+
+#: lib/helpers.php:119
+msgid "User already exists. Password inherited."
+msgstr "Användaren finns redan. Lösenordet ärvdes."
+
+#: lib/helpers.php:111
+msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
+msgstr "<strong><em>Notera det lösenordet</em></strong> noggrant! Det är ett <em>slumpmässigt</em> lösenord som genererades just för dig."
+
+#: views/partials/disclaimer.php:2
+msgid "You selected the users table. Only the <strong><u>%s</u></strong> user will be restored"
+msgstr "Du valde användartabellen. Endast användaren <strong><u>%s</u></strong> kommer att återställas"
+
+#: class-db-reset-admin.php:98
+msgid "You entered the wrong security code"
+msgstr "Du angav fel säkerhetskod"
+
+#: class-db-reset-admin.php:79 class-db-reset-command.php:92
+msgid "The selected tables were reset"
+msgstr "De valda tabellerna återställdes"

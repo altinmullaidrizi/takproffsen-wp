@@ -1,0 +1,116 @@
+# Translation of Plugins - Simple Google reCAPTCHA - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Simple Google reCAPTCHA - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-04 14:22:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Simple Google reCAPTCHA - Stable (latest release)\n"
+
+#: simple-google-recaptcha.php:238
+msgid "This site is protected by reCAPTCHA and the Google <a href=\"https://policies.google.com/privacy\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\">Terms of Service</a> apply."
+msgstr "此网站受reCAPTCHA和Google<a href=\"https://policies.google.com/privacy\">隐私权政策</a>和 <a href=\"https://policies.google.com/terms\">服务条款</a>适用。"
+
+#: simple-google-recaptcha.php:143
+msgid "Hide reCAPTCHA v3 badge"
+msgstr "隐藏reCAPTCHA v3徽章"
+
+#: simple-google-recaptcha.php:318 simple-google-recaptcha.php:321
+msgid "Error:"
+msgstr "错误："
+
+#: simple-google-recaptcha.php:318 simple-google-recaptcha.php:321
+msgid "verification failed"
+msgstr "验证失败"
+
+#: simple-google-recaptcha.php:335
+msgid "is enabled"
+msgstr "已启用"
+
+#: simple-google-recaptcha.php:333
+msgid "is disabled"
+msgstr "被禁用"
+
+#. Author of the plugin
+msgid "Michal Novák"
+msgstr "Michal Novák"
+
+#: simple-google-recaptcha.php:146
+msgid "Google reCAPTCHA keys"
+msgstr "Google reCAPTCHA密钥"
+
+#: simple-google-recaptcha.php:142
+msgid "Enable reCAPTCHA v3"
+msgstr "启用reCAPTCHA v3"
+
+#: simple-google-recaptcha.php:141
+msgid "Disable on login form"
+msgstr "在登录表单上禁用"
+
+#: simple-google-recaptcha.php:333
+msgid "Warning:"
+msgstr "警告："
+
+#: simple-google-recaptcha.php:273
+msgid "The secret parameter is missing."
+msgstr "secret参数丢失。"
+
+#: simple-google-recaptcha.php:279
+msgid "The secret parameter is invalid or malformed."
+msgstr "secret参数无效或格式错误。"
+
+#: simple-google-recaptcha.php:276
+msgid "The response parameter is missing."
+msgstr "缺少响应的参数。"
+
+#: simple-google-recaptcha.php:282
+msgid "The response parameter is invalid or malformed."
+msgstr "响应参数无效或格式错误。"
+
+#: simple-google-recaptcha.php:288
+msgid "The response is no longer valid: either is too old or has been used previously."
+msgstr "响应不再有效：太旧或以前使用过。"
+
+#: simple-google-recaptcha.php:285
+msgid "The request is invalid or malformed."
+msgstr "该请求无效或格式错误。"
+
+#: simple-google-recaptcha.php:335
+msgid "Notice:"
+msgstr "注意："
+
+#: simple-google-recaptcha.php:335
+msgid "Keep on mind, that in case of emergency, you can disable this plugin via FTP access, just rename the plugin folder."
+msgstr "请记住，在紧急情况下，您可以通过FTP访问禁用此插件，只需重命名插件文件夹即可。"
+
+#. Description of the plugin
+msgid "Simply protect your WordPress against spam comments and brute-force attacks, thanks to Google reCAPTCHA!"
+msgstr "借助Google reCAPTCHA，简单保护您的WordPress免受垃圾邮件评论和暴力攻击即可！"
+
+#: simple-google-recaptcha.php:82 simple-google-recaptcha.php:94
+msgid "Settings"
+msgstr "设置"
+
+#: simple-google-recaptcha.php:321
+msgid "Do you have JavaScript enabled?"
+msgstr "您是否启用了JavaScript？"
+
+#: simple-google-recaptcha.php:139
+msgid "Site Key"
+msgstr "网站密钥"
+
+#. Plugin Name of the plugin
+msgid "Simple Google reCAPTCHA"
+msgstr "Simple Google reCAPTCHA"
+
+#: simple-google-recaptcha.php:140
+msgid "Secret Key"
+msgstr "密钥"
+
+#. Author URI of the plugin
+msgid "https://www.novami.cz"
+msgstr "https://www.novami.cz"

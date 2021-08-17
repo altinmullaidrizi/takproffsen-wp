@@ -1,0 +1,120 @@
+# Translation of Plugins - Simple Google reCAPTCHA - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Simple Google reCAPTCHA - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-05 13:48:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Simple Google reCAPTCHA - Stable (latest release)\n"
+
+#: simple-google-recaptcha.php:247
+msgid "Emergency reCAPTCHA deactivate"
+msgstr "Akut reCAPTCHA deaktivering"
+
+#: simple-google-recaptcha.php:143
+msgid "Hide reCAPTCHA v3 badge"
+msgstr "Skjul ReCaptcha v3 mærkat"
+
+#: simple-google-recaptcha.php:236
+msgid "This site is protected by reCAPTCHA and the Google <a href=\"https://policies.google.com/privacy\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\">Terms of Service</a> apply."
+msgstr "Dette websted er beskyttet af ReCaptcha og Google's <a href=\"https://policies.google.com/privacy\">Privatlivspolitik</a> og <a href=\"https://policies.google.com/terms\">Vilkår for</a> anvendelse."
+
+#: simple-google-recaptcha.php:316 simple-google-recaptcha.php:319
+msgid "Error:"
+msgstr "Fejl:"
+
+#: simple-google-recaptcha.php:316 simple-google-recaptcha.php:319
+msgid "verification failed"
+msgstr "godkendelsen mislykkedes"
+
+#: simple-google-recaptcha.php:333
+msgid "is enabled"
+msgstr "er aktiveret"
+
+#: simple-google-recaptcha.php:331
+msgid "is disabled"
+msgstr "er deaktiveret"
+
+#. Author of the plugin
+msgid "Michal Novák"
+msgstr "Michal Novák"
+
+#: simple-google-recaptcha.php:146
+msgid "Google reCAPTCHA keys"
+msgstr "Google reCAPTCHA nøgler"
+
+#: simple-google-recaptcha.php:141
+msgid "Disable on login form"
+msgstr "Deaktiver på log ind formular"
+
+#: simple-google-recaptcha.php:142
+msgid "Enable reCAPTCHA v3"
+msgstr "Aktiver ReCaptcha v3"
+
+#: simple-google-recaptcha.php:274
+msgid "The response parameter is missing."
+msgstr "Svar parameteren mangler."
+
+#: simple-google-recaptcha.php:271
+msgid "The secret parameter is missing."
+msgstr "Den hemmelige parameter mangler."
+
+#: simple-google-recaptcha.php:331
+msgid "Warning:"
+msgstr "Advarsel:"
+
+#: simple-google-recaptcha.php:277
+msgid "The secret parameter is invalid or malformed."
+msgstr "Den hemmelige parameter er ugyldig eller forkert udformet."
+
+#: simple-google-recaptcha.php:280
+msgid "The response parameter is invalid or malformed."
+msgstr "Svar parameteren er ugyldig eller forkert udformet."
+
+#: simple-google-recaptcha.php:283
+msgid "The request is invalid or malformed."
+msgstr "Anmodningen er ugyldig eller forkert udformet."
+
+#: simple-google-recaptcha.php:286
+msgid "The response is no longer valid: either is too old or has been used previously."
+msgstr "Svar parameteren er ikke længere gyldig: Enten er den for gammel, eller også er den blevet anvendt tidligere."
+
+#: simple-google-recaptcha.php:333
+msgid "Notice:"
+msgstr "Bemærk:"
+
+#: simple-google-recaptcha.php:333
+msgid "Keep on mind, that in case of emergency, you can disable this plugin via FTP access, just rename the plugin folder."
+msgstr "Husk på at i nødstilfælde, kan du deaktiver dette plugin via FTP adgang hvor du blot omdøber plugin mappen til et andet navn."
+
+#: simple-google-recaptcha.php:82 simple-google-recaptcha.php:94
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: simple-google-recaptcha.php:319
+msgid "Do you have JavaScript enabled?"
+msgstr "Har du JavaScript aktiveret?"
+
+#. Description of the plugin
+msgid "Simply protect your WordPress against spam comments and brute-force attacks, thanks to Google reCAPTCHA!"
+msgstr "Beskytter helt enkelt dit WordPress websted mod spam kommentarer og brute-force angreb tak og være Google ReCaptcha!"
+
+#: simple-google-recaptcha.php:139
+msgid "Site Key"
+msgstr "Websted nøgle (Site Key)"
+
+#: simple-google-recaptcha.php:140
+msgid "Secret Key"
+msgstr "Hemmelig nøgle (Secret Key)"
+
+#. Plugin Name of the plugin
+msgid "Simple Google reCAPTCHA"
+msgstr "Simple Google reCAPTCHA"
+
+#. Author URI of the plugin
+msgid "https://www.novami.cz"
+msgstr "https://www.novami.cz"

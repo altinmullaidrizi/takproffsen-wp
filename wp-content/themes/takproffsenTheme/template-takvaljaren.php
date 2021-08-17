@@ -270,7 +270,7 @@ $services         = get_field( 'services' );
                                 <button type="button" class="btn btn-secondary info-button"
                                         data-container="body" data-toggle="popover"
                                         data-placement="top"
-                                        data-content="After filling the form, we will contact you soon with the colors you have chosen for your roof & wall.">
+                                        data-content="Efter att ha fyllt i formuläret kommer vi snart att kontakta dig med de färger du valt för ditt tak och vägg.">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16"
                                          height="16" fill="currentColor"
                                          class="bi bi-info-circle-fill" viewBox="0 0 16 16">
