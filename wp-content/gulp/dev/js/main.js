@@ -55,7 +55,7 @@ jQuery(document).ready(function () {
     $(window).on( "load", function() {
        setTimeout(function (){
            $('.loader').addClass('loaded');
-       }, 5000);
+       }, 3000);
     });
 });
 

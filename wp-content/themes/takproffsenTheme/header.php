@@ -1,6 +1,6 @@
 <?php
 $logo = get_field( "main_logo", 311 );
-$phone_number = get_field('phone_number', 'options');
+$phone_number = get_field('phone_number', 311);
 $contact_button_label = get_field('contact_button_label', 'options');
 $contact_button_link = get_field('contact_button_link', 'options');
 
@@ -12,6 +12,13 @@ $contact_button_link = get_field('contact_button_link', 'options');
     <meta charset="<?php bloginfo( 'charset' ); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="robots" content="index,follow"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="<?= get_theme_file_uri() ?>/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?= get_theme_file_uri() ?>/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?= get_theme_file_uri() ?>/images/favicon-16x16.png">
+<link rel="manifest" href="<?= get_theme_file_uri() ?>/images/site.webmanifest">
+<link rel="mask-icon" href="<?= get_theme_file_uri() ?>/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#65a969">
 
     <title>
 		<?php
